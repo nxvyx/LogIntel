@@ -57,7 +57,7 @@ https://github.com/user-attachments/assets/57e144ce-6302-41d0-8ca2-556b0e25db50
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/LogIntel.git
+git clone https://github.com/nxvyx/LogIntel.git
 cd LogIntel
 ````
 
