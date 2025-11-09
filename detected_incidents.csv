@@ -1,0 +1,695 @@
+incident_id,timestamp,type,user,source_ip,evidence,severity_score,is_external,kb_path
+INC0001,2025-11-08 13:16:44,Privilege Escalation,admin,203.0.113.55,privilege_escalation auto_generated_detail_0,10,True,knowledge_articles\INC0001.md
+INC0406,2025-11-10 01:54:00,Data Exfiltration,dave,10.0.0.37,external_transfer auto_generated_detail_839,10,False,knowledge_articles\INC0406.md
+INC0088,2025-11-08 20:27:23,Privilege Escalation,bob,10.0.0.9,privilege_escalation auto_generated_detail_170,10,False,knowledge_articles\INC0088.md
+INC0444,2025-11-10 05:06:22,Brute Force / Authentication Attack,admin,203.0.113.55,brute_force auto_generated_detail_920,10,True,knowledge_articles\INC0444.md
+INC0086,2025-11-08 20:08:52,Privilege Escalation,dave,10.0.0.43,privilege_escalation auto_generated_detail_165,10,False,knowledge_articles\INC0086.md
+INC0448,2025-11-10 05:13:24,Authentication Failure,admin,203.0.113.55,login_failed auto_generated_detail_924,10,True,knowledge_articles\INC0448.md
+INC0460,2025-11-10 06:18:46,Data Exfiltration,bob,10.0.0.30,external_transfer auto_generated_detail_954,10,False,knowledge_articles\INC0460.md
+INC0463,2025-11-10 06:34:10,Privilege Escalation,alice,10.0.0.46,privilege_escalation auto_generated_detail_959,10,False,knowledge_articles\INC0463.md
+INC0477,2025-11-10 07:24:17,Data Exfiltration,dave,10.0.0.40,external_transfer auto_generated_detail_978,10,False,knowledge_articles\INC0477.md
+INC0479,2025-11-10 07:37:21,Privilege Escalation,dave,10.0.0.25,privilege_escalation auto_generated_detail_982,10,False,knowledge_articles\INC0479.md
+INC0480,2025-11-10 07:41:33,Data Exfiltration,bob,10.0.0.42,external_transfer auto_generated_detail_984,10,False,knowledge_articles\INC0480.md
+INC0484,2025-11-10 07:55:55,Data Exfiltration,bob,10.0.0.39,external_transfer auto_generated_detail_991,10,False,knowledge_articles\INC0484.md
+INC0497,2025-11-10 09:17:16,Privilege Escalation,alice,10.0.0.31,privilege_escalation auto_generated_detail_1022,10,False,knowledge_articles\INC0497.md
+INC0066,2025-11-08 18:41:25,Privilege Escalation,bob,10.0.0.11,privilege_escalation auto_generated_detail_127,10,False,knowledge_articles\INC0066.md
+INC0517,2025-11-10 11:16:23,Privilege Escalation,bob,10.0.0.16,privilege_escalation auto_generated_detail_1068,10,False,knowledge_articles\INC0517.md
+INC0547,2025-11-10 13:43:52,Data Exfiltration,bob,10.0.0.46,external_transfer auto_generated_detail_1129,10,False,knowledge_articles\INC0547.md
+INC0549,2025-11-10 13:49:44,Privilege Escalation,carol,10.0.0.45,privilege_escalation auto_generated_detail_1131,10,False,knowledge_articles\INC0549.md
+INC0558,2025-11-10 14:32:54,Data Exfiltration,carol,10.0.0.23,external_transfer auto_generated_detail_1149,10,False,knowledge_articles\INC0558.md
+INC0559,2025-11-10 14:37:26,Brute Force / Authentication Attack,admin,203.0.113.55,brute_force auto_generated_detail_1150,10,True,knowledge_articles\INC0559.md
+INC0560,2025-11-10 14:40:49,Brute Force / Authentication Attack,carol,203.0.113.55,brute_force auto_generated_detail_1151,10,True,knowledge_articles\INC0560.md
+INC0564,2025-11-10 14:49:36,Authentication Failure,admin,203.0.113.55,login_failed auto_generated_detail_1155,10,True,knowledge_articles\INC0564.md
+INC0408,2025-11-10 02:01:01,Privilege Escalation,bob,10.0.0.37,privilege_escalation auto_generated_detail_843,10,False,knowledge_articles\INC0408.md
+INC0403,2025-11-10 01:43:35,Privilege Escalation,bob,10.0.0.8,privilege_escalation auto_generated_detail_832,10,False,knowledge_articles\INC0403.md
+INC0568,2025-11-10 15:09:01,Data Exfiltration,carol,10.0.0.36,external_transfer auto_generated_detail_1163,10,False,knowledge_articles\INC0568.md
+INC0400,2025-11-10 01:17:04,Privilege Escalation,carol,10.0.0.13,privilege_escalation auto_generated_detail_822,10,False,knowledge_articles\INC0400.md
+INC0142,2025-11-09 01:17:23,Privilege Escalation,bob,10.0.0.49,privilege_escalation auto_generated_detail_272,10,False,knowledge_articles\INC0142.md
+INC0203,2025-11-09 06:51:02,Privilege Escalation,alice,10.0.0.36,privilege_escalation auto_generated_detail_400,10,False,knowledge_articles\INC0203.md
+INC0222,2025-11-09 08:56:59,Privilege Escalation,alice,10.0.0.41,privilege_escalation auto_generated_detail_446,10,False,knowledge_articles\INC0222.md
+INC0240,2025-11-09 10:36:29,Privilege Escalation,admin,10.0.0.49,privilege_escalation auto_generated_detail_484,10,False,knowledge_articles\INC0240.md
+INC0268,2025-11-09 12:48:37,Privilege Escalation,carol,10.0.0.21,privilege_escalation auto_generated_detail_535,10,False,knowledge_articles\INC0268.md
+INC0274,2025-11-09 13:19:52,Privilege Escalation,bob,10.0.0.10,privilege_escalation auto_generated_detail_544,10,False,knowledge_articles\INC0274.md
+INC0308,2025-11-09 16:07:36,Privilege Escalation,dave,10.0.0.46,privilege_escalation auto_generated_detail_609,10,False,knowledge_articles\INC0308.md
+INC0315,2025-11-09 17:15:00,Data Exfiltration,bob,10.0.0.40,external_transfer auto_generated_detail_633,10,False,knowledge_articles\INC0315.md
+INC0319,2025-11-09 17:42:56,Privilege Escalation,bob,10.0.0.11,privilege_escalation auto_generated_detail_642,10,False,knowledge_articles\INC0319.md
+INC0333,2025-11-09 19:29:56,Privilege Escalation,dave,10.0.0.28,privilege_escalation auto_generated_detail_680,10,False,knowledge_articles\INC0333.md
+INC0341,2025-11-09 19:59:49,Brute Force / Authentication Attack,admin,203.0.113.55,brute_force auto_generated_detail_691,10,True,knowledge_articles\INC0341.md
+INC0344,2025-11-09 20:08:31,Authentication Failure,admin,203.0.113.55,login_failed auto_generated_detail_694,10,True,knowledge_articles\INC0344.md
+INC0361,2025-11-09 21:39:39,Data Exfiltration,dave,10.0.0.32,external_transfer auto_generated_detail_734,10,False,knowledge_articles\INC0361.md
+INC0362,2025-11-09 21:42:26,Data Exfiltration,alice,10.0.0.5,external_transfer auto_generated_detail_736,10,False,knowledge_articles\INC0362.md
+INC0363,2025-11-09 21:45:59,Privilege Escalation,carol,10.0.0.42,privilege_escalation auto_generated_detail_737,10,False,knowledge_articles\INC0363.md
+INC0372,2025-11-09 22:21:02,Privilege Escalation,admin,10.0.0.45,privilege_escalation auto_generated_detail_753,10,False,knowledge_articles\INC0372.md
+INC0382,2025-11-09 23:31:06,Data Exfiltration,bob,10.0.0.6,external_transfer auto_generated_detail_778,10,False,knowledge_articles\INC0382.md
+INC0391,2025-11-10 00:19:30,Privilege Escalation,bob,10.0.0.10,privilege_escalation auto_generated_detail_800,10,False,knowledge_articles\INC0391.md
+INC0397,2025-11-10 01:05:10,Privilege Escalation,dave,10.0.0.23,privilege_escalation auto_generated_detail_816,10,False,knowledge_articles\INC0397.md
+INC0563,2025-11-10 14:49:22,Brute Force / Authentication Attack,admin,203.0.113.55,brute_force auto_generated_detail_1154,10,True,knowledge_articles\INC0563.md
+INC0189,2025-11-09 05:49:09,Privilege Escalation,carol,10.0.0.8,privilege_escalation auto_generated_detail_377,10,False,knowledge_articles\INC0189.md
+INC0651,2025-11-10 22:38:09,Data Exfiltration,admin,10.0.0.28,external_transfer auto_generated_detail_1340,10,False,knowledge_articles\INC0651.md
+INC0642,2025-11-10 22:13:14,Data Exfiltration,admin,10.0.0.3,external_transfer auto_generated_detail_1329,10,False,knowledge_articles\INC0642.md
+INC0684,2025-11-11 00:55:20,Privilege Escalation,admin,10.0.0.16,privilege_escalation auto_generated_detail_1394,10,False,knowledge_articles\INC0684.md
+INC0693,2025-11-11 01:43:48,Privilege Escalation,dave,10.0.0.22,privilege_escalation auto_generated_detail_1413,10,False,knowledge_articles\INC0693.md
+INC0618,2025-11-10 19:44:06,Data Exfiltration,dave,10.0.0.6,external_transfer auto_generated_detail_1269,10,False,knowledge_articles\INC0618.md
+INC0657,2025-11-10 23:07:09,Privilege Escalation,carol,10.0.0.26,privilege_escalation auto_generated_detail_1353,10,False,knowledge_articles\INC0657.md
+INC0681,2025-11-11 00:43:14,Privilege Escalation,svc_sync,10.0.0.32,privilege_escalation auto_generated_detail_1390,10,False,knowledge_articles\INC0681.md
+INC0678,2025-11-11 00:30:00,Brute Force / Authentication Attack,admin,203.0.113.55,brute_force auto_generated_detail_1385,10,True,knowledge_articles\INC0678.md
+INC0702,2025-11-11 02:34:34,Data Exfiltration,bob,10.0.0.11,external_transfer auto_generated_detail_1430,10,False,knowledge_articles\INC0702.md
+INC0704,2025-11-11 02:56:39,Privilege Escalation,bob,10.0.0.43,privilege_escalation auto_generated_detail_1439,10,False,knowledge_articles\INC0704.md
+INC0677,2025-11-11 00:26:46,Authentication Failure,carol,203.0.113.55,login_failed auto_generated_detail_1384,10,True,knowledge_articles\INC0677.md
+INC0713,2025-11-11 03:56:31,Privilege Escalation,svc_backup,10.0.0.29,privilege_escalation auto_generated_detail_1461,10,False,knowledge_articles\INC0713.md
+INC0649,2025-11-10 22:34:06,Data Exfiltration,alice,10.0.0.36,external_transfer auto_generated_detail_1338,10,False,knowledge_articles\INC0649.md
+INC0675,2025-11-11 00:23:17,Brute Force / Authentication Attack,admin,203.0.113.55,brute_force auto_generated_detail_1382,10,True,knowledge_articles\INC0675.md
+INC0595,2025-11-10 17:49:00,Privilege Escalation,bob,10.0.0.10,privilege_escalation auto_generated_detail_1224,10,False,knowledge_articles\INC0595.md
+INC0723,2025-11-11 05:06:15,Data Exfiltration,carol,10.0.0.44,external_transfer auto_generated_detail_1484,10,False,knowledge_articles\INC0723.md
+INC0650,2025-11-10 22:35:16,Privilege Escalation,alice,10.0.0.11,privilege_escalation auto_generated_detail_1339,10,False,knowledge_articles\INC0650.md
+INC0584,2025-11-10 16:43:09,Privilege Escalation,dave,10.0.0.35,privilege_escalation auto_generated_detail_1200,10,False,knowledge_articles\INC0584.md
+INC0370,2025-11-09 22:09:29,Unauthorized Configuration Change,dave,10.0.0.9,config_change auto_generated_detail_748,9,False,knowledge_articles\INC0370.md
+INC0359,2025-11-09 21:29:00,Unauthorized Configuration Change,bob,10.0.0.5,config_change auto_generated_detail_730,9,False,knowledge_articles\INC0359.md
+INC0366,2025-11-09 21:59:25,Unauthorized Configuration Change,bob,10.0.0.29,config_change auto_generated_detail_742,9,False,knowledge_articles\INC0366.md
+INC0364,2025-11-09 21:57:13,Insider / Removable Media,alice,10.0.0.15,usb_insert auto_generated_detail_740,9,False,knowledge_articles\INC0364.md
+INC0377,2025-11-09 22:57:08,Unauthorized Configuration Change,dave,10.0.0.36,config_change auto_generated_detail_765,9,False,knowledge_articles\INC0377.md
+INC0379,2025-11-09 23:09:58,Network Intrusion / Reconnaissance,alice,10.0.0.35,port_scan auto_generated_detail_769,9,False,knowledge_articles\INC0379.md
+INC0380,2025-11-09 23:13:42,Insider / Removable Media,carol,10.0.0.5,usb_insert auto_generated_detail_770,9,False,knowledge_articles\INC0380.md
+INC0667,2025-11-11 00:00:59,Unauthorized Configuration Change,bob,10.0.0.21,config_change auto_generated_detail_1373,9,False,knowledge_articles\INC0667.md
+INC0385,2025-11-09 23:52:09,Unauthorized Configuration Change,admin,10.0.0.37,config_change auto_generated_detail_787,9,False,knowledge_articles\INC0385.md
+INC0662,2025-11-10 23:32:32,Unauthorized Configuration Change,bob,10.0.0.21,config_change auto_generated_detail_1360,9,False,knowledge_articles\INC0662.md
+INC0360,2025-11-09 21:31:58,Network Intrusion / Reconnaissance,carol,10.0.0.2,port_scan auto_generated_detail_732,9,False,knowledge_articles\INC0360.md
+INC0339,2025-11-09 19:49:40,Unauthorized Configuration Change,alice,10.0.0.43,config_change auto_generated_detail_687,9,False,knowledge_articles\INC0339.md
+INC0348,2025-11-09 20:40:22,Unauthorized Configuration Change,dave,10.0.0.45,config_change auto_generated_detail_707,9,False,knowledge_articles\INC0348.md
+INC0695,2025-11-11 01:52:21,Unauthorized Configuration Change,alice,10.0.0.25,config_change auto_generated_detail_1416,9,False,knowledge_articles\INC0695.md
+INC0729,2025-11-11 05:25:01,Unauthorized Configuration Change,carol,10.0.0.39,config_change auto_generated_detail_1495,9,False,knowledge_articles\INC0729.md
+INC0726,2025-11-11 05:13:35,Unauthorized Configuration Change,dave,10.0.0.40,config_change auto_generated_detail_1489,9,False,knowledge_articles\INC0726.md
+INC0211,2025-11-09 07:49:38,Data Exfiltration,carol,10.0.0.17,external_transfer auto_generated_detail_423,9,False,knowledge_articles\INC0211.md
+INC0227,2025-11-09 09:31:06,Brute Force / Authentication Attack,alice,203.0.113.55,brute_force auto_generated_detail_460,9,True,knowledge_articles\INC0227.md
+INC0228,2025-11-09 09:35:15,Brute Force / Authentication Attack,admin,203.0.113.55,brute_force auto_generated_detail_461,9,True,knowledge_articles\INC0228.md
+INC0231,2025-11-09 09:39:34,Authentication Failure,admin,203.0.113.55,login_failed auto_generated_detail_464,9,True,knowledge_articles\INC0231.md
+INC0722,2025-11-11 04:47:19,Network Intrusion / Reconnaissance,carol,10.0.0.4,port_scan auto_generated_detail_1479,9,False,knowledge_articles\INC0722.md
+INC0241,2025-11-09 10:42:03,Data Exfiltration,carol,10.0.0.22,external_transfer auto_generated_detail_486,9,False,knowledge_articles\INC0241.md
+INC0243,2025-11-09 10:48:33,Data Exfiltration,carol,10.0.0.14,external_transfer auto_generated_detail_488,9,False,knowledge_articles\INC0243.md
+INC0247,2025-11-09 11:05:25,Data Exfiltration,bob,10.0.0.20,external_transfer auto_generated_detail_494,9,False,knowledge_articles\INC0247.md
+INC0715,2025-11-11 04:04:49,Insider / Removable Media,bob,10.0.0.37,usb_insert auto_generated_detail_1464,9,False,knowledge_articles\INC0715.md
+INC0273,2025-11-09 13:10:21,Data Exfiltration,bob,10.0.0.45,external_transfer auto_generated_detail_542,9,False,knowledge_articles\INC0273.md
+INC0705,2025-11-11 03:10:39,Unauthorized Configuration Change,admin,10.0.0.20,config_change auto_generated_detail_1444,9,False,knowledge_articles\INC0705.md
+INC0311,2025-11-09 16:50:48,Unauthorized Configuration Change,alice,10.0.0.40,config_change auto_generated_detail_622,9,False,knowledge_articles\INC0311.md
+INC0323,2025-11-09 18:01:29,Insider / Removable Media,svc_sync,10.0.0.23,usb_insert auto_generated_detail_649,9,False,knowledge_articles\INC0323.md
+INC0659,2025-11-10 23:15:24,Unauthorized Configuration Change,carol,10.0.0.47,config_change auto_generated_detail_1355,9,False,knowledge_articles\INC0659.md
+INC0570,2025-11-10 15:24:43,Unauthorized Configuration Change,bob,10.0.0.45,config_change auto_generated_detail_1168,9,False,knowledge_articles\INC0570.md
+INC0401,2025-11-10 01:22:01,Unauthorized Configuration Change,dave,10.0.0.41,config_change auto_generated_detail_823,9,False,knowledge_articles\INC0401.md
+INC0149,2025-11-09 01:56:58,Data Exfiltration,bob,10.0.0.16,external_transfer auto_generated_detail_289,9,False,knowledge_articles\INC0149.md
+INC0493,2025-11-10 08:41:24,Network Intrusion / Reconnaissance,dave,10.0.0.12,port_scan auto_generated_detail_1008,9,False,knowledge_articles\INC0493.md
+INC0495,2025-11-10 08:50:24,Unauthorized Configuration Change,alice,10.0.0.45,config_change auto_generated_detail_1011,9,False,knowledge_articles\INC0495.md
+INC0496,2025-11-10 09:05:59,Unauthorized Configuration Change,dave,10.0.0.36,config_change auto_generated_detail_1017,9,False,knowledge_articles\INC0496.md
+INC0602,2025-11-10 18:15:29,Insider / Removable Media,admin,10.0.0.15,usb_insert auto_generated_detail_1237,9,False,knowledge_articles\INC0602.md
+INC0506,2025-11-10 10:12:14,Unauthorized Configuration Change,carol,10.0.0.6,config_change auto_generated_detail_1041,9,False,knowledge_articles\INC0506.md
+INC0598,2025-11-10 18:04:38,Unauthorized Configuration Change,alice,10.0.0.49,config_change auto_generated_detail_1232,9,False,knowledge_articles\INC0598.md
+INC0596,2025-11-10 17:51:15,Unauthorized Configuration Change,bob,10.0.0.21,config_change auto_generated_detail_1226,9,False,knowledge_articles\INC0596.md
+INC0528,2025-11-10 12:01:47,Network Intrusion / Reconnaissance,admin,10.0.0.4,port_scan auto_generated_detail_1086,9,False,knowledge_articles\INC0528.md
+INC0531,2025-11-10 12:09:40,Insider / Removable Media,carol,10.0.0.26,usb_insert auto_generated_detail_1090,9,False,knowledge_articles\INC0531.md
+INC0548,2025-11-10 13:44:53,Unauthorized Configuration Change,alice,10.0.0.27,config_change auto_generated_detail_1130,9,False,knowledge_articles\INC0548.md
+INC0592,2025-11-10 17:37:36,Unauthorized Configuration Change,carol,10.0.0.35,config_change auto_generated_detail_1218,9,False,knowledge_articles\INC0592.md
+INC0553,2025-11-10 14:09:37,Unauthorized Configuration Change,bob,10.0.0.4,config_change auto_generated_detail_1139,9,False,knowledge_articles\INC0553.md
+INC0555,2025-11-10 14:16:06,Unauthorized Configuration Change,alice,10.0.0.19,config_change auto_generated_detail_1142,9,False,knowledge_articles\INC0555.md
+INC0587,2025-11-10 16:55:59,Insider / Removable Media,admin,10.0.0.31,usb_insert auto_generated_detail_1205,9,False,knowledge_articles\INC0587.md
+INC0585,2025-11-10 16:47:30,Unauthorized Configuration Change,bob,10.0.0.17,config_change auto_generated_detail_1202,9,False,knowledge_articles\INC0585.md
+INC0581,2025-11-10 16:35:23,Insider / Removable Media,dave,10.0.0.35,usb_insert auto_generated_detail_1195,9,False,knowledge_articles\INC0581.md
+INC0580,2025-11-10 16:32:08,Unauthorized Configuration Change,bob,10.0.0.30,config_change auto_generated_detail_1194,9,False,knowledge_articles\INC0580.md
+INC0490,2025-11-10 08:25:14,Network Intrusion / Reconnaissance,svc_backup,10.0.0.10,port_scan auto_generated_detail_1002,9,False,knowledge_articles\INC0490.md
+INC0603,2025-11-10 18:20:24,Unauthorized Configuration Change,svc_sync,10.0.0.39,config_change auto_generated_detail_1240,9,False,knowledge_articles\INC0603.md
+INC0654,2025-11-10 22:50:31,Unauthorized Configuration Change,bob,10.0.0.46,config_change auto_generated_detail_1345,9,False,knowledge_articles\INC0654.md
+INC0482,2025-11-10 07:51:22,Unauthorized Configuration Change,dave,10.0.0.8,config_change auto_generated_detail_989,9,False,knowledge_articles\INC0482.md
+INC0576,2025-11-10 16:00:16,Unauthorized Configuration Change,carol,10.0.0.22,config_change auto_generated_detail_1180,9,False,knowledge_articles\INC0576.md
+INC0412,2025-11-10 02:30:25,Unauthorized Configuration Change,carol,10.0.0.11,config_change auto_generated_detail_854,9,False,knowledge_articles\INC0412.md
+INC0415,2025-11-10 02:59:59,Unauthorized Configuration Change,svc_backup,10.0.0.38,config_change auto_generated_detail_869,9,False,knowledge_articles\INC0415.md
+INC0427,2025-11-10 03:45:35,Unauthorized Configuration Change,bob,10.0.0.18,config_change auto_generated_detail_888,9,False,knowledge_articles\INC0427.md
+INC0434,2025-11-10 04:14:15,Unauthorized Configuration Change,alice,10.0.0.35,config_change auto_generated_detail_901,9,False,knowledge_articles\INC0434.md
+INC0439,2025-11-10 04:42:48,Unauthorized Configuration Change,dave,10.0.0.37,config_change auto_generated_detail_910,9,False,knowledge_articles\INC0439.md
+INC0443,2025-11-10 05:03:32,Network Intrusion / Reconnaissance,carol,10.0.0.42,port_scan auto_generated_detail_919,9,False,knowledge_articles\INC0443.md
+INC0637,2025-11-10 21:17:52,Network Intrusion / Reconnaissance,dave,10.0.0.12,port_scan auto_generated_detail_1308,9,False,knowledge_articles\INC0637.md
+INC0633,2025-11-10 20:55:04,Insider / Removable Media,carol,10.0.0.27,usb_insert auto_generated_detail_1298,9,False,knowledge_articles\INC0633.md
+INC0456,2025-11-10 05:53:45,Insider / Removable Media,dave,10.0.0.35,usb_insert auto_generated_detail_943,9,False,knowledge_articles\INC0456.md
+INC0631,2025-11-10 20:50:02,Unauthorized Configuration Change,admin,10.0.0.16,config_change auto_generated_detail_1294,9,False,knowledge_articles\INC0631.md
+INC0626,2025-11-10 20:25:07,Network Intrusion / Reconnaissance,alice,10.0.0.4,port_scan auto_generated_detail_1282,9,False,knowledge_articles\INC0626.md
+INC0465,2025-11-10 06:39:35,Unauthorized Configuration Change,alice,10.0.0.26,config_change auto_generated_detail_961,9,False,knowledge_articles\INC0465.md
+INC0466,2025-11-10 06:39:59,Insider / Removable Media,admin,10.0.0.48,usb_insert auto_generated_detail_962,9,False,knowledge_articles\INC0466.md
+INC0473,2025-11-10 07:13:45,Insider / Removable Media,bob,10.0.0.23,usb_insert auto_generated_detail_972,9,False,knowledge_articles\INC0473.md
+INC0625,2025-11-10 20:19:14,Unauthorized Configuration Change,carol,10.0.0.26,config_change auto_generated_detail_1280,9,False,knowledge_articles\INC0625.md
+INC0623,2025-11-10 20:10:26,Unauthorized Configuration Change,admin,10.0.0.28,config_change auto_generated_detail_1278,9,False,knowledge_articles\INC0623.md
+INC0487,2025-11-10 08:08:53,Insider / Removable Media,bob,10.0.0.23,usb_insert auto_generated_detail_997,9,False,knowledge_articles\INC0487.md
+INC0369,2025-11-09 22:07:02,Unauthorized Configuration Change,alice,10.0.0.10,config_change auto_generated_detail_747,9,False,knowledge_articles\INC0369.md
+INC0732,2025-11-11 05:35:42,Unauthorized Configuration Change,dave,10.0.0.28,config_change auto_generated_detail_1499,9,False,knowledge_articles\INC0732.md
+INC0089,2025-11-08 20:30:14,Data Exfiltration,alice,10.0.0.36,external_transfer auto_generated_detail_171,9,False,knowledge_articles\INC0089.md
+INC0125,2025-11-08 23:55:02,Data Exfiltration,alice,10.0.0.30,external_transfer auto_generated_detail_243,9,False,knowledge_articles\INC0125.md
+INC0119,2025-11-08 23:34:47,Authentication Failure,admin,203.0.113.55,login_failed auto_generated_detail_234,9,True,knowledge_articles\INC0119.md
+INC0117,2025-11-08 23:27:51,Brute Force / Authentication Attack,carol,203.0.113.55,brute_force auto_generated_detail_232,9,True,knowledge_articles\INC0117.md
+INC0116,2025-11-08 23:24:18,Brute Force / Authentication Attack,admin,203.0.113.55,brute_force auto_generated_detail_231,9,True,knowledge_articles\INC0116.md
+INC0053,2025-11-08 17:37:48,Data Exfiltration,bob,10.0.0.6,external_transfer auto_generated_detail_101,9,False,knowledge_articles\INC0053.md
+INC0084,2025-11-08 20:05:46,Data Exfiltration,carol,10.0.0.35,external_transfer auto_generated_detail_163,9,False,knowledge_articles\INC0084.md
+INC0095,2025-11-08 20:59:20,Data Exfiltration,alice,10.0.0.38,external_transfer auto_generated_detail_181,9,False,knowledge_articles\INC0095.md
+INC0115,2025-11-08 23:22:49,Brute Force / Authentication Attack,alice,203.0.113.55,brute_force auto_generated_detail_230,9,True,knowledge_articles\INC0115.md
+INC0144,2025-11-09 01:34:26,Data Exfiltration,bob,10.0.0.9,external_transfer auto_generated_detail_277,9,False,knowledge_articles\INC0144.md
+INC0004,2025-11-08 13:18:35,Brute Force / Authentication Attack,admin,203.0.113.55,brute_force auto_generated_detail_3,9,True,knowledge_articles\INC0004.md
+INC0006,2025-11-08 13:24:11,Brute Force / Authentication Attack,admin,203.0.113.55,brute_force auto_generated_detail_5,9,True,knowledge_articles\INC0006.md
+INC0419,2025-11-10 03:13:22,Suspicious File Activity,dave,10.0.0.19,file_copied auto_generated_detail_874,8,False,knowledge_articles\INC0419.md
+INC0332,2025-11-09 19:26:17,Suspicious File Activity,svc_sync,10.0.0.34,file_access auto_generated_detail_679,8,False,knowledge_articles\INC0332.md
+INC0321,2025-11-09 17:50:22,Suspicious File Activity,dave,10.0.0.25,file_access auto_generated_detail_645,8,False,knowledge_articles\INC0321.md
+INC0322,2025-11-09 17:57:55,Suspicious File Activity,carol,10.0.0.43,file_access auto_generated_detail_648,8,False,knowledge_articles\INC0322.md
+INC0065,2025-11-08 18:30:59,Unauthorized Configuration Change,admin,10.0.0.19,config_change auto_generated_detail_123,8,False,knowledge_articles\INC0065.md
+INC0515,2025-11-10 11:07:31,Suspicious File Activity,carol,10.0.0.23,file_access auto_generated_detail_1065,8,False,knowledge_articles\INC0515.md
+INC0513,2025-11-10 11:03:38,Suspicious File Activity,bob,10.0.0.44,file_access auto_generated_detail_1063,8,False,knowledge_articles\INC0513.md
+INC0509,2025-11-10 10:46:07,Suspicious File Activity,alice,10.0.0.43,file_download auto_generated_detail_1057,8,False,knowledge_articles\INC0509.md
+INC0327,2025-11-09 18:42:46,Suspicious File Activity,carol,10.0.0.13,file_access auto_generated_detail_662,8,False,knowledge_articles\INC0327.md
+INC0328,2025-11-09 18:46:37,Suspicious File Activity,bob,10.0.0.49,file_access auto_generated_detail_663,8,False,knowledge_articles\INC0328.md
+INC0508,2025-11-10 10:37:25,Suspicious File Activity,bob,10.0.0.48,file_access auto_generated_detail_1053,8,False,knowledge_articles\INC0508.md
+INC0330,2025-11-09 19:16:15,Suspicious File Activity,carol,10.0.0.36,file_access auto_generated_detail_675,8,False,knowledge_articles\INC0330.md
+INC0331,2025-11-09 19:19:38,Suspicious File Activity,bob,10.0.0.30,file_access auto_generated_detail_677,8,False,knowledge_articles\INC0331.md
+INC0503,2025-11-10 09:43:06,Suspicious File Activity,svc_sync,10.0.0.45,file_copied auto_generated_detail_1032,8,False,knowledge_articles\INC0503.md
+INC0505,2025-11-10 10:08:22,Suspicious File Activity,carol,10.0.0.46,file_download auto_generated_detail_1040,8,False,knowledge_articles\INC0505.md
+INC0430,2025-11-10 03:53:39,Suspicious File Activity,dave,10.0.0.47,file_access auto_generated_detail_894,8,False,knowledge_articles\INC0430.md
+INC0502,2025-11-10 09:40:52,Suspicious File Activity,bob,10.0.0.43,file_access auto_generated_detail_1031,8,False,knowledge_articles\INC0502.md
+INC0498,2025-11-10 09:18:45,Suspicious File Activity,alice,10.0.0.22,file_access auto_generated_detail_1023,8,False,knowledge_articles\INC0498.md
+INC0340,2025-11-09 19:56:40,Authentication Failure,dave,203.0.113.55,login_failed auto_generated_detail_690,8,True,knowledge_articles\INC0340.md
+INC0068,2025-11-08 18:46:22,Unauthorized Configuration Change,svc_backup,10.0.0.21,config_change auto_generated_detail_131,8,False,knowledge_articles\INC0068.md
+INC0342,2025-11-09 20:01:10,Authentication Failure,admin,203.0.113.55,login_failed auto_generated_detail_692,8,True,knowledge_articles\INC0342.md
+INC0423,2025-11-10 03:32:43,Suspicious File Activity,bob,10.0.0.35,file_download auto_generated_detail_882,8,False,knowledge_articles\INC0423.md
+INC0346,2025-11-09 20:17:06,Suspicious File Activity,carol,10.0.0.19,file_access auto_generated_detail_698,8,False,knowledge_articles\INC0346.md
+INC0349,2025-11-09 20:42:25,Brute Force / Authentication Attack,bob,10.0.0.2,brute_force auto_generated_detail_709,8,False,knowledge_articles\INC0349.md
+INC0494,2025-11-10 08:43:42,Suspicious File Activity,alice,10.0.0.5,file_access auto_generated_detail_1009,8,False,knowledge_articles\INC0494.md
+INC0518,2025-11-10 11:26:52,Suspicious File Activity,admin,10.0.0.10,file_copied auto_generated_detail_1072,8,False,knowledge_articles\INC0518.md
+INC0318,2025-11-09 17:40:43,Suspicious File Activity,carol,10.0.0.10,file_access auto_generated_detail_641,8,False,knowledge_articles\INC0318.md
+INC0353,2025-11-09 21:01:15,Suspicious File Activity,dave,10.0.0.29,file_access auto_generated_detail_717,8,False,knowledge_articles\INC0353.md
+INC0536,2025-11-10 12:32:42,Suspicious File Activity,carol,10.0.0.38,file_access auto_generated_detail_1102,8,False,knowledge_articles\INC0536.md
+INC0282,2025-11-09 13:53:41,Insider / Removable Media,carol,10.0.0.5,usb_insert auto_generated_detail_558,8,False,knowledge_articles\INC0282.md
+INC0554,2025-11-10 14:14:08,Suspicious File Activity,carol,10.0.0.16,file_access auto_generated_detail_1140,8,False,knowledge_articles\INC0554.md
+INC0551,2025-11-10 14:01:08,Suspicious File Activity,svc_backup,10.0.0.13,file_access auto_generated_detail_1137,8,False,knowledge_articles\INC0551.md
+INC0288,2025-11-09 14:28:56,Unauthorized Configuration Change,svc_sync,10.0.0.9,config_change auto_generated_detail_570,8,False,knowledge_articles\INC0288.md
+INC0061,2025-11-08 18:12:44,Unauthorized Configuration Change,admin,10.0.0.8,config_change auto_generated_detail_116,8,False,knowledge_articles\INC0061.md
+INC0293,2025-11-09 14:48:00,Unauthorized Configuration Change,carol,10.0.0.16,config_change auto_generated_detail_577,8,False,knowledge_articles\INC0293.md
+INC0542,2025-11-10 13:04:24,Suspicious File Activity,bob,10.0.0.4,file_access auto_generated_detail_1114,8,False,knowledge_articles\INC0542.md
+INC0296,2025-11-09 14:58:27,Insider / Removable Media,bob,10.0.0.33,usb_insert auto_generated_detail_581,8,False,knowledge_articles\INC0296.md
+INC0541,2025-11-10 12:59:47,Suspicious File Activity,dave,10.0.0.45,file_access auto_generated_detail_1113,8,False,knowledge_articles\INC0541.md
+INC0538,2025-11-10 12:51:56,Suspicious File Activity,carol,10.0.0.34,file_access auto_generated_detail_1109,8,False,knowledge_articles\INC0538.md
+INC0537,2025-11-10 12:47:56,Suspicious File Activity,svc_backup,10.0.0.40,file_access auto_generated_detail_1107,8,False,knowledge_articles\INC0537.md
+INC0301,2025-11-09 15:40:04,Unauthorized Configuration Change,carol,10.0.0.43,config_change auto_generated_detail_597,8,False,knowledge_articles\INC0301.md
+INC0317,2025-11-09 17:19:45,Suspicious File Activity,bob,10.0.0.46,file_access auto_generated_detail_635,8,False,knowledge_articles\INC0317.md
+INC0533,2025-11-10 12:18:36,Suspicious File Activity,alice,10.0.0.25,file_access auto_generated_detail_1095,8,False,knowledge_articles\INC0533.md
+INC0303,2025-11-09 15:46:04,Unauthorized Configuration Change,admin,10.0.0.43,config_change auto_generated_detail_600,8,False,knowledge_articles\INC0303.md
+INC0532,2025-11-10 12:14:50,Suspicious File Activity,carol,10.0.0.32,file_copied auto_generated_detail_1092,8,False,knowledge_articles\INC0532.md
+INC0529,2025-11-10 12:04:42,Suspicious File Activity,alice,10.0.0.35,file_access auto_generated_detail_1087,8,False,knowledge_articles\INC0529.md
+INC0527,2025-11-10 11:53:10,Suspicious File Activity,bob,10.0.0.4,file_access auto_generated_detail_1084,8,False,knowledge_articles\INC0527.md
+INC0525,2025-11-10 11:48:51,Suspicious File Activity,carol,10.0.0.38,file_access auto_generated_detail_1081,8,False,knowledge_articles\INC0525.md
+INC0524,2025-11-10 11:45:36,Suspicious File Activity,bob,10.0.0.2,file_access auto_generated_detail_1079,8,False,knowledge_articles\INC0524.md
+INC0522,2025-11-10 11:39:25,Suspicious File Activity,bob,10.0.0.16,file_copied auto_generated_detail_1077,8,False,knowledge_articles\INC0522.md
+INC0312,2025-11-09 16:55:08,Suspicious File Activity,dave,10.0.0.37,file_copied auto_generated_detail_624,8,False,knowledge_articles\INC0312.md
+INC0313,2025-11-09 16:57:22,Suspicious File Activity,carol,10.0.0.12,file_access auto_generated_detail_625,8,False,knowledge_articles\INC0313.md
+INC0314,2025-11-09 17:05:21,Suspicious File Activity,dave,10.0.0.33,file_access auto_generated_detail_629,8,False,knowledge_articles\INC0314.md
+INC0351,2025-11-09 20:52:12,Suspicious File Activity,bob,10.0.0.25,file_access auto_generated_detail_712,8,False,knowledge_articles\INC0351.md
+INC0355,2025-11-09 21:07:51,Suspicious File Activity,bob,10.0.0.10,file_access auto_generated_detail_720,8,False,knowledge_articles\INC0355.md
+INC0354,2025-11-09 21:06:31,Suspicious File Activity,alice,10.0.0.25,file_download auto_generated_detail_719,8,False,knowledge_articles\INC0354.md
+INC0402,2025-11-10 01:39:50,Suspicious File Activity,dave,10.0.0.44,file_access auto_generated_detail_830,8,False,knowledge_articles\INC0402.md
+INC0461,2025-11-10 06:28:21,Suspicious File Activity,bob,10.0.0.26,file_access auto_generated_detail_957,8,False,knowledge_articles\INC0461.md
+INC0459,2025-11-10 06:17:09,Suspicious File Activity,alice,10.0.0.10,file_access auto_generated_detail_953,8,False,knowledge_articles\INC0459.md
+INC0458,2025-11-10 06:06:59,Suspicious File Activity,svc_backup,10.0.0.38,file_access auto_generated_detail_947,8,False,knowledge_articles\INC0458.md
+INC0394,2025-11-10 00:41:33,Brute Force / Authentication Attack,carol,10.0.0.39,brute_force auto_generated_detail_806,8,False,knowledge_articles\INC0394.md
+INC0395,2025-11-10 00:54:40,Suspicious File Activity,svc_backup,10.0.0.3,file_access auto_generated_detail_811,8,False,knowledge_articles\INC0395.md
+INC0457,2025-11-10 06:01:48,Suspicious File Activity,carol,10.0.0.15,file_access auto_generated_detail_945,8,False,knowledge_articles\INC0457.md
+INC0433,2025-11-10 04:06:20,Suspicious File Activity,carol,10.0.0.40,file_access auto_generated_detail_898,8,False,knowledge_articles\INC0433.md
+INC0453,2025-11-10 05:46:59,Suspicious File Activity,bob,10.0.0.40,file_access auto_generated_detail_940,8,False,knowledge_articles\INC0453.md
+INC0399,2025-11-10 01:09:27,Suspicious File Activity,dave,10.0.0.35,file_download auto_generated_detail_818,8,False,knowledge_articles\INC0399.md
+INC0099,2025-11-08 21:34:23,Unauthorized Configuration Change,dave,10.0.0.40,config_change auto_generated_detail_194,8,False,knowledge_articles\INC0099.md
+INC0452,2025-11-10 05:37:36,Brute Force / Authentication Attack,carol,10.0.0.40,brute_force auto_generated_detail_935,8,False,knowledge_articles\INC0452.md
+INC0451,2025-11-10 05:25:08,Brute Force / Authentication Attack,bob,10.0.0.45,brute_force auto_generated_detail_929,8,False,knowledge_articles\INC0451.md
+INC0462,2025-11-10 06:32:35,Suspicious File Activity,dave,10.0.0.43,file_copied auto_generated_detail_958,8,False,knowledge_articles\INC0462.md
+INC0404,2025-11-10 01:45:44,Suspicious File Activity,admin,10.0.0.33,file_download auto_generated_detail_834,8,False,knowledge_articles\INC0404.md
+INC0405,2025-11-10 01:52:28,Suspicious File Activity,alice,10.0.0.12,file_copied auto_generated_detail_838,8,False,knowledge_articles\INC0405.md
+INC0450,2025-11-10 05:22:06,Suspicious File Activity,bob,10.0.0.35,file_access auto_generated_detail_928,8,False,knowledge_articles\INC0450.md
+INC0407,2025-11-10 01:54:57,Suspicious File Activity,bob,10.0.0.41,file_copied auto_generated_detail_840,8,False,knowledge_articles\INC0407.md
+INC0410,2025-11-10 02:12:01,Suspicious File Activity,bob,10.0.0.44,file_access auto_generated_detail_847,8,False,knowledge_articles\INC0410.md
+INC0420,2025-11-10 03:23:03,Suspicious File Activity,bob,10.0.0.28,file_access auto_generated_detail_878,8,False,knowledge_articles\INC0420.md
+INC0441,2025-11-10 04:46:34,Suspicious File Activity,bob,10.0.0.49,file_download auto_generated_detail_912,8,False,knowledge_articles\INC0441.md
+INC0440,2025-11-10 04:44:31,Suspicious File Activity,svc_backup,10.0.0.23,file_access auto_generated_detail_911,8,False,knowledge_articles\INC0440.md
+INC0146,2025-11-09 01:47:15,Network Intrusion / Reconnaissance,bob,10.0.0.11,port_scan auto_generated_detail_283,8,False,knowledge_articles\INC0146.md
+INC0416,2025-11-10 03:02:35,Suspicious File Activity,admin,10.0.0.24,file_download auto_generated_detail_870,8,False,knowledge_articles\INC0416.md
+INC0091,2025-11-08 20:44:00,Insider / Removable Media,alice,10.0.0.4,usb_insert auto_generated_detail_175,8,False,knowledge_articles\INC0091.md
+INC0389,2025-11-10 00:15:28,Suspicious File Activity,bob,10.0.0.30,file_copied auto_generated_detail_797,8,False,knowledge_articles\INC0389.md
+INC0387,2025-11-10 00:03:28,Suspicious File Activity,dave,10.0.0.7,file_copied auto_generated_detail_793,8,False,knowledge_articles\INC0387.md
+INC0418,2025-11-10 03:12:47,Suspicious File Activity,alice,10.0.0.23,file_access auto_generated_detail_873,8,False,knowledge_articles\INC0418.md
+INC0077,2025-11-08 19:20:10,Insider / Removable Media,dave,10.0.0.12,usb_insert auto_generated_detail_147,8,False,knowledge_articles\INC0077.md
+INC0356,2025-11-09 21:12:15,Suspicious File Activity,svc_backup,10.0.0.41,file_access auto_generated_detail_723,8,False,knowledge_articles\INC0356.md
+INC0357,2025-11-09 21:20:11,Suspicious File Activity,bob,10.0.0.40,file_access auto_generated_detail_727,8,False,knowledge_articles\INC0357.md
+INC0491,2025-11-10 08:26:55,Suspicious File Activity,carol,10.0.0.46,file_access auto_generated_detail_1003,8,False,knowledge_articles\INC0491.md
+INC0422,2025-11-10 03:27:36,Suspicious File Activity,dave,10.0.0.35,file_download auto_generated_detail_880,8,False,knowledge_articles\INC0422.md
+INC0489,2025-11-10 08:20:16,Suspicious File Activity,dave,10.0.0.37,file_access auto_generated_detail_1000,8,False,knowledge_articles\INC0489.md
+INC0073,2025-11-08 19:07:19,Unauthorized Configuration Change,bob,10.0.0.23,config_change auto_generated_detail_139,8,False,knowledge_articles\INC0073.md
+INC0111,2025-11-08 22:39:56,Network Intrusion / Reconnaissance,bob,10.0.0.32,port_scan auto_generated_detail_217,8,False,knowledge_articles\INC0111.md
+INC0486,2025-11-10 08:02:04,Suspicious File Activity,svc_backup,10.0.0.13,file_access auto_generated_detail_994,8,False,knowledge_articles\INC0486.md
+INC0483,2025-11-10 07:51:55,Suspicious File Activity,svc_backup,10.0.0.45,file_access auto_generated_detail_990,8,False,knowledge_articles\INC0483.md
+INC0075,2025-11-08 19:14:43,Unauthorized Configuration Change,alice,10.0.0.6,config_change auto_generated_detail_142,8,False,knowledge_articles\INC0075.md
+INC0481,2025-11-10 07:44:12,Suspicious File Activity,carol,10.0.0.25,file_access auto_generated_detail_985,8,False,knowledge_articles\INC0481.md
+INC0371,2025-11-09 22:10:36,Suspicious File Activity,bob,10.0.0.38,file_access auto_generated_detail_750,8,False,knowledge_articles\INC0371.md
+INC0080,2025-11-08 19:28:02,Unauthorized Configuration Change,dave,10.0.0.38,config_change auto_generated_detail_151,8,False,knowledge_articles\INC0080.md
+INC0475,2025-11-10 07:23:05,Suspicious File Activity,svc_sync,10.0.0.49,file_access auto_generated_detail_976,8,False,knowledge_articles\INC0475.md
+INC0474,2025-11-10 07:14:20,Suspicious File Activity,carol,10.0.0.37,file_access auto_generated_detail_973,8,False,knowledge_articles\INC0474.md
+INC0375,2025-11-09 22:51:11,Suspicious File Activity,dave,10.0.0.49,file_access auto_generated_detail_763,8,False,knowledge_articles\INC0375.md
+INC0376,2025-11-09 22:55:18,Brute Force / Authentication Attack,bob,10.0.0.33,brute_force auto_generated_detail_764,8,False,knowledge_articles\INC0376.md
+INC0471,2025-11-10 07:04:37,Suspicious File Activity,alice,10.0.0.37,file_copied auto_generated_detail_969,8,False,knowledge_articles\INC0471.md
+INC0378,2025-11-09 23:04:10,Suspicious File Activity,bob,10.0.0.46,file_download auto_generated_detail_767,8,False,knowledge_articles\INC0378.md
+INC0469,2025-11-10 06:57:19,Suspicious File Activity,carol,10.0.0.46,file_access auto_generated_detail_967,8,False,knowledge_articles\INC0469.md
+INC0104,2025-11-08 21:56:04,Insider / Removable Media,carol,10.0.0.33,usb_insert auto_generated_detail_202,8,False,knowledge_articles\INC0104.md
+INC0381,2025-11-09 23:23:34,Suspicious File Activity,alice,10.0.0.18,file_download auto_generated_detail_776,8,False,knowledge_articles\INC0381.md
+INC0468,2025-11-10 06:52:44,Suspicious File Activity,alice,10.0.0.44,file_download auto_generated_detail_966,8,False,knowledge_articles\INC0468.md
+INC0383,2025-11-09 23:41:32,Suspicious File Activity,dave,10.0.0.46,file_access auto_generated_detail_783,8,False,knowledge_articles\INC0383.md
+INC0280,2025-11-09 13:40:22,Network Intrusion / Reconnaissance,alice,10.0.0.11,port_scan auto_generated_detail_555,8,False,knowledge_articles\INC0280.md
+INC0429,2025-11-10 03:50:39,Suspicious File Activity,bob,10.0.0.10,file_access auto_generated_detail_892,8,False,knowledge_articles\INC0429.md
+INC0276,2025-11-09 13:30:56,Unauthorized Configuration Change,bob,10.0.0.48,config_change auto_generated_detail_548,8,False,knowledge_articles\INC0276.md
+INC0653,2025-11-10 22:45:08,Suspicious File Activity,alice,10.0.0.41,file_access auto_generated_detail_1343,8,False,knowledge_articles\INC0653.md
+INC0192,2025-11-09 06:17:16,Unauthorized Configuration Change,dave,10.0.0.10,config_change auto_generated_detail_385,8,False,knowledge_articles\INC0192.md
+INC0670,2025-11-11 00:13:21,Suspicious File Activity,dave,10.0.0.40,file_copied auto_generated_detail_1377,8,False,knowledge_articles\INC0670.md
+INC0669,2025-11-11 00:08:33,Suspicious File Activity,alice,10.0.0.33,file_download auto_generated_detail_1376,8,False,knowledge_articles\INC0669.md
+INC0668,2025-11-11 00:06:14,Suspicious File Activity,svc_sync,10.0.0.2,file_access auto_generated_detail_1375,8,False,knowledge_articles\INC0668.md
+INC0666,2025-11-10 23:58:57,Suspicious File Activity,svc_backup,10.0.0.38,file_download auto_generated_detail_1371,8,False,knowledge_articles\INC0666.md
+INC0665,2025-11-10 23:55:49,Suspicious File Activity,dave,10.0.0.34,file_access auto_generated_detail_1369,8,False,knowledge_articles\INC0665.md
+INC0663,2025-11-10 23:44:57,Suspicious File Activity,alice,10.0.0.39,file_copied auto_generated_detail_1365,8,False,knowledge_articles\INC0663.md
+INC0202,2025-11-09 06:49:44,Unauthorized Configuration Change,dave,10.0.0.49,config_change auto_generated_detail_399,8,False,knowledge_articles\INC0202.md
+INC0656,2025-11-10 23:02:34,Suspicious File Activity,admin,10.0.0.33,file_access auto_generated_detail_1351,8,False,knowledge_articles\INC0656.md
+INC0026,2025-11-08 14:54:09,Unauthorized Configuration Change,svc_sync,10.0.0.36,config_change auto_generated_detail_39,8,False,knowledge_articles\INC0026.md
+INC0206,2025-11-09 07:11:45,Unauthorized Configuration Change,bob,10.0.0.27,config_change auto_generated_detail_408,8,False,knowledge_articles\INC0206.md
+INC0647,2025-11-10 22:29:50,Brute Force / Authentication Attack,svc_backup,10.0.0.29,brute_force auto_generated_detail_1336,8,False,knowledge_articles\INC0647.md
+INC0233,2025-11-09 09:55:28,Unauthorized Configuration Change,carol,10.0.0.25,config_change auto_generated_detail_469,8,False,knowledge_articles\INC0233.md
+INC0646,2025-11-10 22:25:12,Suspicious File Activity,admin,10.0.0.21,file_access auto_generated_detail_1335,8,False,knowledge_articles\INC0646.md
+INC0641,2025-11-10 22:09:46,Suspicious File Activity,bob,10.0.0.5,file_access auto_generated_detail_1328,8,False,knowledge_articles\INC0641.md
+INC0636,2025-11-10 21:17:30,Suspicious File Activity,alice,10.0.0.24,file_access auto_generated_detail_1307,8,False,knowledge_articles\INC0636.md
+INC0219,2025-11-09 08:11:41,Network Intrusion / Reconnaissance,carol,10.0.0.9,port_scan auto_generated_detail_432,8,False,knowledge_articles\INC0219.md
+INC0629,2025-11-10 20:41:27,Suspicious File Activity,alice,10.0.0.46,file_access auto_generated_detail_1290,8,False,knowledge_articles\INC0629.md
+INC0223,2025-11-09 09:00:25,Unauthorized Configuration Change,alice,10.0.0.43,config_change auto_generated_detail_448,8,False,knowledge_articles\INC0223.md
+INC0624,2025-11-10 20:14:16,Suspicious File Activity,dave,10.0.0.22,file_access auto_generated_detail_1279,8,False,knowledge_articles\INC0624.md
+INC0225,2025-11-09 09:18:12,Unauthorized Configuration Change,svc_sync,10.0.0.10,config_change auto_generated_detail_455,8,False,knowledge_articles\INC0225.md
+INC0621,2025-11-10 20:03:34,Brute Force / Authentication Attack,carol,10.0.0.36,brute_force auto_generated_detail_1276,8,False,knowledge_articles\INC0621.md
+INC0620,2025-11-10 19:58:57,Suspicious File Activity,dave,10.0.0.29,file_copied auto_generated_detail_1274,8,False,knowledge_articles\INC0620.md
+INC0137,2025-11-09 00:40:14,Unauthorized Configuration Change,svc_sync,10.0.0.11,config_change auto_generated_detail_259,8,False,knowledge_articles\INC0137.md
+INC0672,2025-11-11 00:19:11,Suspicious File Activity,bob,10.0.0.40,file_access auto_generated_detail_1379,8,False,knowledge_articles\INC0672.md
+INC0673,2025-11-11 00:21:26,Authentication Failure,admin,203.0.113.55,login_failed auto_generated_detail_1380,8,True,knowledge_articles\INC0673.md
+INC0018,2025-11-08 14:20:22,Unauthorized Configuration Change,dave,10.0.0.36,config_change auto_generated_detail_27,8,False,knowledge_articles\INC0018.md
+INC0187,2025-11-09 05:40:02,Unauthorized Configuration Change,bob,10.0.0.20,config_change auto_generated_detail_374,8,False,knowledge_articles\INC0187.md
+INC0731,2025-11-11 05:34:14,Suspicious File Activity,svc_sync,10.0.0.11,file_access auto_generated_detail_1498,8,False,knowledge_articles\INC0731.md
+INC0730,2025-11-11 05:31:09,Suspicious File Activity,carol,10.0.0.35,file_download auto_generated_detail_1497,8,False,knowledge_articles\INC0730.md
+INC0728,2025-11-11 05:20:09,Brute Force / Authentication Attack,carol,10.0.0.44,brute_force auto_generated_detail_1491,8,False,knowledge_articles\INC0728.md
+INC0719,2025-11-11 04:29:55,Suspicious File Activity,admin,10.0.0.46,file_access auto_generated_detail_1474,8,False,knowledge_articles\INC0719.md
+INC0718,2025-11-11 04:24:33,Suspicious File Activity,dave,10.0.0.33,file_access auto_generated_detail_1472,8,False,knowledge_articles\INC0718.md
+INC0717,2025-11-11 04:23:10,Suspicious File Activity,alice,10.0.0.6,file_access auto_generated_detail_1471,8,False,knowledge_articles\INC0717.md
+INC0716,2025-11-11 04:14:29,Suspicious File Activity,bob,10.0.0.15,file_access auto_generated_detail_1468,8,False,knowledge_articles\INC0716.md
+INC0162,2025-11-09 03:19:12,Unauthorized Configuration Change,bob,10.0.0.15,config_change auto_generated_detail_321,8,False,knowledge_articles\INC0162.md
+INC0163,2025-11-09 03:30:55,Unauthorized Configuration Change,svc_backup,10.0.0.10,config_change auto_generated_detail_325,8,False,knowledge_articles\INC0163.md
+INC0714,2025-11-11 04:04:08,Suspicious File Activity,bob,10.0.0.10,file_download auto_generated_detail_1463,8,False,knowledge_articles\INC0714.md
+INC0710,2025-11-11 03:46:08,Suspicious File Activity,bob,10.0.0.43,file_access auto_generated_detail_1456,8,False,knowledge_articles\INC0710.md
+INC0709,2025-11-11 03:42:44,Suspicious File Activity,alice,10.0.0.8,file_access auto_generated_detail_1455,8,False,knowledge_articles\INC0709.md
+INC0168,2025-11-09 03:47:02,Insider / Removable Media,alice,10.0.0.3,usb_insert auto_generated_detail_332,8,False,knowledge_articles\INC0168.md
+INC0706,2025-11-11 03:15:42,Suspicious File Activity,carol,10.0.0.27,file_access auto_generated_detail_1447,8,False,knowledge_articles\INC0706.md
+INC0171,2025-11-09 04:10:48,Unauthorized Configuration Change,bob,10.0.0.38,config_change auto_generated_detail_341,8,False,knowledge_articles\INC0171.md
+INC0700,2025-11-11 02:22:18,Suspicious File Activity,bob,10.0.0.30,file_access auto_generated_detail_1427,8,False,knowledge_articles\INC0700.md
+INC0698,2025-11-11 02:11:56,Suspicious File Activity,alice,10.0.0.4,file_access auto_generated_detail_1423,8,False,knowledge_articles\INC0698.md
+INC0697,2025-11-11 02:10:47,Suspicious File Activity,bob,10.0.0.47,file_download auto_generated_detail_1422,8,False,knowledge_articles\INC0697.md
+INC0694,2025-11-11 01:46:17,Suspicious File Activity,bob,10.0.0.33,file_download auto_generated_detail_1414,8,False,knowledge_articles\INC0694.md
+INC0178,2025-11-09 04:38:06,Network Intrusion / Reconnaissance,bob,10.0.0.23,port_scan auto_generated_detail_351,8,False,knowledge_articles\INC0178.md
+INC0692,2025-11-11 01:41:01,Suspicious File Activity,alice,10.0.0.9,file_download auto_generated_detail_1412,8,False,knowledge_articles\INC0692.md
+INC0688,2025-11-11 01:22:10,Suspicious File Activity,admin,10.0.0.36,file_copied auto_generated_detail_1405,8,False,knowledge_articles\INC0688.md
+INC0685,2025-11-11 01:03:59,Suspicious File Activity,alice,10.0.0.14,file_access auto_generated_detail_1398,8,False,knowledge_articles\INC0685.md
+INC0136,2025-11-09 00:33:24,Insider / Removable Media,svc_backup,10.0.0.32,usb_insert auto_generated_detail_257,8,False,knowledge_articles\INC0136.md
+INC0643,2025-11-10 22:15:47,Suspicious File Activity,alice,10.0.0.23,file_copied auto_generated_detail_1330,8,False,knowledge_articles\INC0643.md
+INC0597,2025-11-10 17:55:40,Suspicious File Activity,svc_sync,10.0.0.31,file_access auto_generated_detail_1227,8,False,knowledge_articles\INC0597.md
+INC0052,2025-11-08 17:35:58,Unauthorized Configuration Change,dave,10.0.0.49,config_change auto_generated_detail_100,8,False,knowledge_articles\INC0052.md
+INC0600,2025-11-10 18:12:03,Suspicious File Activity,svc_backup,10.0.0.12,file_access auto_generated_detail_1234,8,False,knowledge_articles\INC0600.md
+INC0040,2025-11-08 16:31:08,Network Intrusion / Reconnaissance,dave,10.0.0.41,port_scan auto_generated_detail_72,8,False,knowledge_articles\INC0040.md
+INC0251,2025-11-09 11:24:03,Network Intrusion / Reconnaissance,alice,10.0.0.37,port_scan auto_generated_detail_501,8,False,knowledge_articles\INC0251.md
+INC0271,2025-11-09 12:57:43,Network Intrusion / Reconnaissance,svc_sync,10.0.0.6,port_scan auto_generated_detail_538,8,False,knowledge_articles\INC0271.md
+INC0594,2025-11-10 17:45:10,Suspicious File Activity,alice,10.0.0.31,file_access auto_generated_detail_1221,8,False,knowledge_articles\INC0594.md
+INC0567,2025-11-10 15:04:39,Suspicious File Activity,alice,10.0.0.7,file_access auto_generated_detail_1162,8,False,knowledge_articles\INC0567.md
+INC0588,2025-11-10 17:10:29,Suspicious File Activity,bob,10.0.0.42,file_access auto_generated_detail_1208,8,False,knowledge_articles\INC0588.md
+INC0269,2025-11-09 12:52:09,Unauthorized Configuration Change,bob,10.0.0.2,config_change auto_generated_detail_536,8,False,knowledge_articles\INC0269.md
+INC0582,2025-11-10 16:41:14,Suspicious File Activity,carol,10.0.0.49,file_access auto_generated_detail_1197,8,False,knowledge_articles\INC0582.md
+INC0572,2025-11-10 15:31:38,Suspicious File Activity,dave,10.0.0.2,file_access auto_generated_detail_1170,8,False,knowledge_articles\INC0572.md
+INC0573,2025-11-10 15:46:00,Suspicious File Activity,bob,10.0.0.28,file_access auto_generated_detail_1174,8,False,knowledge_articles\INC0573.md
+INC0265,2025-11-09 12:25:37,Unauthorized Configuration Change,dave,10.0.0.45,config_change auto_generated_detail_527,8,False,knowledge_articles\INC0265.md
+INC0578,2025-11-10 16:13:32,Suspicious File Activity,carol,10.0.0.43,file_access auto_generated_detail_1186,8,False,knowledge_articles\INC0578.md
+INC0574,2025-11-10 15:51:02,Suspicious File Activity,carol,10.0.0.38,file_access auto_generated_detail_1176,8,False,knowledge_articles\INC0574.md
+INC0049,2025-11-08 17:00:11,Unauthorized Configuration Change,alice,10.0.0.23,config_change auto_generated_detail_88,8,False,knowledge_articles\INC0049.md
+INC0565,2025-11-10 14:57:18,Suspicious File Activity,alice,10.0.0.49,file_access auto_generated_detail_1158,8,False,knowledge_articles\INC0565.md
+INC0263,2025-11-09 12:11:30,Unauthorized Configuration Change,dave,10.0.0.47,config_change auto_generated_detail_522,8,False,knowledge_articles\INC0263.md
+INC0239,2025-11-09 10:26:21,Unauthorized Configuration Change,carol,10.0.0.41,config_change auto_generated_detail_480,8,False,knowledge_articles\INC0239.md
+INC0237,2025-11-09 10:19:37,Insider / Removable Media,carol,10.0.0.18,usb_insert auto_generated_detail_478,8,False,knowledge_articles\INC0237.md
+INC0275,2025-11-09 13:21:56,Network Intrusion / Reconnaissance,dave,10.0.0.3,port_scan auto_generated_detail_545,8,False,knowledge_articles\INC0275.md
+INC0135,2025-11-09 00:27:46,Unauthorized Configuration Change,alice,10.0.0.10,config_change auto_generated_detail_255,8,False,knowledge_articles\INC0135.md
+INC0610,2025-11-10 19:08:06,Suspicious File Activity,bob,10.0.0.6,file_access auto_generated_detail_1256,8,False,knowledge_articles\INC0610.md
+INC0609,2025-11-10 19:05:54,Suspicious File Activity,admin,10.0.0.41,file_download auto_generated_detail_1255,8,False,knowledge_articles\INC0609.md
+INC0614,2025-11-10 19:33:49,Suspicious File Activity,carol,10.0.0.35,file_access auto_generated_detail_1263,8,False,knowledge_articles\INC0614.md
+INC0612,2025-11-10 19:17:15,Suspicious File Activity,dave,10.0.0.11,file_access auto_generated_detail_1258,8,False,knowledge_articles\INC0612.md
+INC0608,2025-11-10 18:56:26,Suspicious File Activity,dave,10.0.0.19,file_download auto_generated_detail_1251,8,False,knowledge_articles\INC0608.md
+INC0615,2025-11-10 19:36:10,Suspicious File Activity,alice,10.0.0.16,file_access auto_generated_detail_1264,8,False,knowledge_articles\INC0615.md
+INC0605,2025-11-10 18:41:40,Suspicious File Activity,dave,10.0.0.3,file_access auto_generated_detail_1247,8,False,knowledge_articles\INC0605.md
+INC0619,2025-11-10 19:52:08,Suspicious File Activity,alice,10.0.0.35,file_access auto_generated_detail_1271,8,False,knowledge_articles\INC0619.md
+INC0015,2025-11-08 14:10:54,Suspicious File Activity,dave,10.0.0.29,file_access auto_generated_detail_24,7,False,knowledge_articles\INC0015.md
+INC0733,2025-11-11 05:21:21,Anomalous User Behavior (ML),admin,10.0.0.19,"user-level aggregates: failed_logins=42, priv_esc=4",7,False,knowledge_articles\INC0733.md
+INC0050,2025-11-08 17:12:39,Suspicious File Activity,bob,10.0.0.19,file_download auto_generated_detail_93,7,False,knowledge_articles\INC0050.md
+INC0012,2025-11-08 13:53:01,Suspicious File Activity,svc_backup,10.0.0.38,file_download auto_generated_detail_18,7,False,knowledge_articles\INC0012.md
+INC0055,2025-11-08 17:50:51,Suspicious File Activity,carol,10.0.0.26,file_access auto_generated_detail_105,7,False,knowledge_articles\INC0055.md
+INC0543,2025-11-10 13:11:38,Phishing / Email Abuse,bob,10.0.0.49,email_sent auto_generated_detail_1116,7,False,knowledge_articles\INC0543.md
+INC0011,2025-11-08 13:48:35,Suspicious File Activity,bob,10.0.0.42,file_access auto_generated_detail_15,7,False,knowledge_articles\INC0011.md
+INC0008,2025-11-08 13:36:51,Suspicious File Activity,dave,10.0.0.7,file_download auto_generated_detail_10,7,False,knowledge_articles\INC0008.md
+INC0059,2025-11-08 18:08:19,Suspicious File Activity,svc_sync,10.0.0.41,file_download auto_generated_detail_113,7,False,knowledge_articles\INC0059.md
+INC0056,2025-11-08 17:55:34,Suspicious File Activity,bob,10.0.0.30,file_access auto_generated_detail_108,7,False,knowledge_articles\INC0056.md
+INC0007,2025-11-08 13:27:35,Suspicious File Activity,alice,10.0.0.24,file_access auto_generated_detail_6,7,False,knowledge_articles\INC0007.md
+INC0550,2025-11-10 13:52:12,Phishing / Email Abuse,dave,10.0.0.32,email_sent auto_generated_detail_1133,7,False,knowledge_articles\INC0550.md
+INC0010,2025-11-08 13:43:34,Suspicious File Activity,dave,10.0.0.45,file_access auto_generated_detail_13,7,False,knowledge_articles\INC0010.md
+INC0087,2025-11-08 20:16:28,Suspicious File Activity,dave,10.0.0.21,file_access auto_generated_detail_167,7,False,knowledge_articles\INC0087.md
+INC0566,2025-11-10 15:01:18,Authentication Abnormality,admin,10.0.0.15,login_success auto_generated_detail_1160,7,False,knowledge_articles\INC0566.md
+INC0092,2025-11-08 20:48:53,Suspicious File Activity,bob,10.0.0.10,file_access auto_generated_detail_176,7,False,knowledge_articles\INC0092.md
+INC0009,2025-11-08 13:37:52,Suspicious File Activity,bob,10.0.0.31,file_access auto_generated_detail_11,7,False,knowledge_articles\INC0009.md
+INC0689,2025-11-11 01:26:16,Phishing / Email Abuse,dave,10.0.0.28,email_sent auto_generated_detail_1406,7,False,knowledge_articles\INC0689.md
+INC0725,2025-11-11 05:10:08,Phishing / Email Abuse,bob,10.0.0.34,email_sent auto_generated_detail_1487,7,False,knowledge_articles\INC0725.md
+INC0058,2025-11-08 18:03:59,Suspicious File Activity,alice,10.0.0.17,file_access auto_generated_detail_111,7,False,knowledge_articles\INC0058.md
+INC0435,2025-11-10 04:22:11,Phishing / Email Abuse,svc_sync,10.0.0.18,email_sent auto_generated_detail_904,7,False,knowledge_articles\INC0435.md
+INC0057,2025-11-08 18:00:58,Suspicious File Activity,bob,10.0.0.44,file_access auto_generated_detail_110,7,False,knowledge_articles\INC0057.md
+INC0507,2025-11-10 10:19:31,Phishing / Email Abuse,alice,10.0.0.16,email_sent auto_generated_detail_1044,7,False,knowledge_articles\INC0507.md
+INC0020,2025-11-08 14:30:45,Suspicious File Activity,admin,10.0.0.34,file_access auto_generated_detail_31,7,False,knowledge_articles\INC0020.md
+INC0083,2025-11-08 19:48:40,Suspicious File Activity,svc_sync,10.0.0.19,file_access auto_generated_detail_156,7,False,knowledge_articles\INC0083.md
+INC0076,2025-11-08 19:19:02,Suspicious File Activity,dave,10.0.0.12,file_access auto_generated_detail_146,7,False,knowledge_articles\INC0076.md
+INC0037,2025-11-08 16:10:34,Suspicious File Activity,bob,10.0.0.44,file_access auto_generated_detail_67,7,False,knowledge_articles\INC0037.md
+INC0035,2025-11-08 16:02:02,Suspicious File Activity,carol,10.0.0.4,file_access auto_generated_detail_64,7,False,knowledge_articles\INC0035.md
+INC0070,2025-11-08 18:52:32,Suspicious File Activity,bob,10.0.0.44,file_access auto_generated_detail_134,7,False,knowledge_articles\INC0070.md
+INC0630,2025-11-10 20:45:50,Phishing / Email Abuse,alice,10.0.0.5,email_sent auto_generated_detail_1292,7,False,knowledge_articles\INC0630.md
+INC0054,2025-11-08 17:40:47,Suspicious File Activity,carol,10.0.0.44,file_download auto_generated_detail_102,7,False,knowledge_articles\INC0054.md
+INC0039,2025-11-08 16:24:05,Suspicious File Activity,bob,10.0.0.24,file_download auto_generated_detail_70,7,False,knowledge_articles\INC0039.md
+INC0648,2025-11-10 22:31:14,Phishing / Email Abuse,carol,10.0.0.38,email_sent auto_generated_detail_1337,7,False,knowledge_articles\INC0648.md
+INC0029,2025-11-08 15:07:57,Suspicious File Activity,carol,10.0.0.19,file_access auto_generated_detail_45,7,False,knowledge_articles\INC0029.md
+INC0028,2025-11-08 15:07:11,Suspicious File Activity,alice,10.0.0.4,file_download auto_generated_detail_44,7,False,knowledge_articles\INC0028.md
+INC0027,2025-11-08 14:56:01,Brute Force / Authentication Attack,dave,10.0.0.27,brute_force auto_generated_detail_40,7,False,knowledge_articles\INC0027.md
+INC0072,2025-11-08 19:00:52,Suspicious File Activity,alice,10.0.0.27,file_access auto_generated_detail_136,7,False,knowledge_articles\INC0072.md
+INC0652,2025-11-10 22:40:54,Phishing / Email Abuse,bob,10.0.0.42,email_sent auto_generated_detail_1341,7,False,knowledge_articles\INC0652.md
+INC0520,2025-11-10 11:33:07,Phishing / Email Abuse,dave,10.0.0.15,email_sent auto_generated_detail_1075,7,False,knowledge_articles\INC0520.md
+INC0025,2025-11-08 14:50:23,Suspicious File Activity,alice,10.0.0.35,file_download auto_generated_detail_38,7,False,knowledge_articles\INC0025.md
+INC0024,2025-11-08 14:45:32,Suspicious File Activity,dave,10.0.0.10,file_access auto_generated_detail_37,7,False,knowledge_articles\INC0024.md
+INC0687,2025-11-11 01:17:37,Phishing / Email Abuse,svc_backup,10.0.0.32,email_sent auto_generated_detail_1403,7,False,knowledge_articles\INC0687.md
+INC0022,2025-11-08 14:37:13,Suspicious File Activity,alice,10.0.0.25,file_download auto_generated_detail_34,7,False,knowledge_articles\INC0022.md
+INC0041,2025-11-08 16:39:52,Suspicious File Activity,dave,10.0.0.15,file_access auto_generated_detail_76,7,False,knowledge_articles\INC0041.md
+INC0042,2025-11-08 16:42:17,Suspicious File Activity,carol,10.0.0.18,file_copied auto_generated_detail_77,7,False,knowledge_articles\INC0042.md
+INC0079,2025-11-08 19:26:51,Suspicious File Activity,alice,10.0.0.21,file_download auto_generated_detail_150,7,False,knowledge_articles\INC0079.md
+INC0043,2025-11-08 16:43:25,Suspicious File Activity,alice,10.0.0.10,file_access auto_generated_detail_79,7,False,knowledge_articles\INC0043.md
+INC0526,2025-11-10 11:50:15,Phishing / Email Abuse,dave,10.0.0.32,email_sent auto_generated_detail_1082,7,False,knowledge_articles\INC0526.md
+INC0046,2025-11-08 16:52:58,Suspicious File Activity,admin,10.0.0.15,file_access auto_generated_detail_84,7,False,knowledge_articles\INC0046.md
+INC0063,2025-11-08 18:19:28,Suspicious File Activity,carol,10.0.0.37,file_access auto_generated_detail_119,7,False,knowledge_articles\INC0063.md
+INC0504,2025-11-10 09:51:17,Phishing / Email Abuse,dave,10.0.0.3,email_sent auto_generated_detail_1034,7,False,knowledge_articles\INC0504.md
+INC0047,2025-11-08 16:54:00,Suspicious File Activity,bob,10.0.0.37,file_copied auto_generated_detail_85,7,False,knowledge_articles\INC0047.md
+INC0048,2025-11-08 16:59:49,Suspicious File Activity,admin,10.0.0.13,file_download auto_generated_detail_87,7,False,knowledge_articles\INC0048.md
+INC0081,2025-11-08 19:35:38,Suspicious File Activity,carol,10.0.0.2,file_download auto_generated_detail_153,7,False,knowledge_articles\INC0081.md
+INC0082,2025-11-08 19:39:58,Suspicious File Activity,alice,10.0.0.25,file_access auto_generated_detail_154,7,False,knowledge_articles\INC0082.md
+INC0017,2025-11-08 14:19:14,Suspicious File Activity,admin,10.0.0.2,file_access auto_generated_detail_26,7,False,knowledge_articles\INC0017.md
+INC0552,2025-11-10 14:05:02,Phishing / Email Abuse,alice,10.0.0.44,email_sent auto_generated_detail_1138,7,False,knowledge_articles\INC0552.md
+INC0145,2025-11-09 01:38:28,Suspicious File Activity,alice,10.0.0.15,file_access auto_generated_detail_278,7,False,knowledge_articles\INC0145.md
+INC0259,2025-11-09 11:57:28,Suspicious File Activity,alice,10.0.0.42,file_copied auto_generated_detail_515,7,False,knowledge_articles\INC0259.md
+INC0249,2025-11-09 11:17:39,Suspicious File Activity,bob,10.0.0.44,file_copied auto_generated_detail_498,7,False,knowledge_articles\INC0249.md
+INC0258,2025-11-09 11:55:40,Suspicious File Activity,dave,10.0.0.38,file_access auto_generated_detail_514,7,False,knowledge_articles\INC0258.md
+INC0257,2025-11-09 11:44:25,Suspicious File Activity,carol,10.0.0.10,file_download auto_generated_detail_511,7,False,knowledge_articles\INC0257.md
+INC0255,2025-11-09 11:32:22,Brute Force / Authentication Attack,svc_backup,10.0.0.4,brute_force auto_generated_detail_507,7,False,knowledge_articles\INC0255.md
+INC0254,2025-11-09 11:30:13,Suspicious File Activity,carol,10.0.0.48,file_download auto_generated_detail_505,7,False,knowledge_articles\INC0254.md
+INC0253,2025-11-09 11:28:05,Suspicious File Activity,svc_backup,10.0.0.7,file_access auto_generated_detail_504,7,False,knowledge_articles\INC0253.md
+INC0250,2025-11-09 11:22:43,Suspicious File Activity,dave,10.0.0.8,file_access auto_generated_detail_500,7,False,knowledge_articles\INC0250.md
+INC0248,2025-11-09 11:06:15,Suspicious File Activity,bob,10.0.0.30,file_access auto_generated_detail_495,7,False,knowledge_articles\INC0248.md
+INC0266,2025-11-09 12:26:28,Suspicious File Activity,carol,10.0.0.35,file_access auto_generated_detail_528,7,False,knowledge_articles\INC0266.md
+INC0132,2025-11-09 00:18:39,Suspicious File Activity,alice,10.0.0.14,file_access auto_generated_detail_251,7,False,knowledge_articles\INC0132.md
+INC0246,2025-11-09 11:00:37,Suspicious File Activity,bob,10.0.0.38,file_access auto_generated_detail_492,7,False,knowledge_articles\INC0246.md
+INC0133,2025-11-09 00:19:59,Suspicious File Activity,carol,10.0.0.42,file_access auto_generated_detail_252,7,False,knowledge_articles\INC0133.md
+INC0235,2025-11-09 10:02:04,Suspicious File Activity,carol,10.0.0.11,file_access auto_generated_detail_472,7,False,knowledge_articles\INC0235.md
+INC0138,2025-11-09 00:42:19,Suspicious File Activity,admin,10.0.0.48,file_access auto_generated_detail_260,7,False,knowledge_articles\INC0138.md
+INC0226,2025-11-09 09:24:32,Suspicious File Activity,bob,10.0.0.26,file_download auto_generated_detail_458,7,False,knowledge_articles\INC0226.md
+INC0262,2025-11-09 12:07:12,Suspicious File Activity,bob,10.0.0.25,file_access auto_generated_detail_520,7,False,knowledge_articles\INC0262.md
+INC0131,2025-11-09 00:15:29,Suspicious File Activity,dave,10.0.0.16,file_access auto_generated_detail_250,7,False,knowledge_articles\INC0131.md
+INC0124,2025-11-08 23:50:13,Suspicious File Activity,carol,10.0.0.31,file_copied auto_generated_detail_242,7,False,knowledge_articles\INC0124.md
+INC0289,2025-11-09 14:33:11,Suspicious File Activity,svc_backup,10.0.0.46,file_access auto_generated_detail_571,7,False,knowledge_articles\INC0289.md
+INC0127,2025-11-09 00:01:48,Brute Force / Authentication Attack,admin,10.0.0.14,brute_force auto_generated_detail_245,7,False,knowledge_articles\INC0127.md
+INC0307,2025-11-09 15:58:20,Suspicious File Activity,admin,10.0.0.38,file_access auto_generated_detail_604,7,False,knowledge_articles\INC0307.md
+INC0306,2025-11-09 15:55:47,Suspicious File Activity,bob,10.0.0.6,file_access auto_generated_detail_603,7,False,knowledge_articles\INC0306.md
+INC0305,2025-11-09 15:51:34,Suspicious File Activity,alice,10.0.0.46,file_copied auto_generated_detail_602,7,False,knowledge_articles\INC0305.md
+INC0304,2025-11-09 15:51:03,Suspicious File Activity,svc_sync,10.0.0.8,file_copied auto_generated_detail_601,7,False,knowledge_articles\INC0304.md
+INC0291,2025-11-09 14:37:39,Suspicious File Activity,bob,10.0.0.36,file_access auto_generated_detail_573,7,False,knowledge_articles\INC0291.md
+INC0287,2025-11-09 14:24:09,Suspicious File Activity,alice,10.0.0.15,file_download auto_generated_detail_568,7,False,knowledge_articles\INC0287.md
+INC0270,2025-11-09 12:52:56,Suspicious File Activity,alice,10.0.0.24,file_access auto_generated_detail_537,7,False,knowledge_articles\INC0270.md
+INC0286,2025-11-09 14:18:43,Suspicious File Activity,alice,10.0.0.26,file_access auto_generated_detail_566,7,False,knowledge_articles\INC0286.md
+INC0283,2025-11-09 13:57:06,Suspicious File Activity,dave,10.0.0.22,file_access auto_generated_detail_559,7,False,knowledge_articles\INC0283.md
+INC0278,2025-11-09 13:32:07,Suspicious File Activity,bob,10.0.0.45,file_access auto_generated_detail_551,7,False,knowledge_articles\INC0278.md
+INC0277,2025-11-09 13:31:22,Suspicious File Activity,dave,10.0.0.28,file_access auto_generated_detail_549,7,False,knowledge_articles\INC0277.md
+INC0129,2025-11-09 00:12:18,Suspicious File Activity,bob,10.0.0.38,file_download auto_generated_detail_248,7,False,knowledge_articles\INC0129.md
+INC0272,2025-11-09 13:03:13,Suspicious File Activity,dave,10.0.0.48,file_access auto_generated_detail_540,7,False,knowledge_articles\INC0272.md
+INC0139,2025-11-09 00:58:16,Suspicious File Activity,bob,10.0.0.41,file_copied auto_generated_detail_265,7,False,knowledge_articles\INC0139.md
+INC0221,2025-11-09 08:37:26,Suspicious File Activity,bob,10.0.0.37,file_access auto_generated_detail_439,7,False,knowledge_articles\INC0221.md
+INC0217,2025-11-09 08:06:56,Suspicious File Activity,carol,10.0.0.20,file_copied auto_generated_detail_430,7,False,knowledge_articles\INC0217.md
+INC0169,2025-11-09 03:55:29,Suspicious File Activity,carol,10.0.0.27,file_download auto_generated_detail_335,7,False,knowledge_articles\INC0169.md
+INC0185,2025-11-09 05:06:03,Brute Force / Authentication Attack,carol,10.0.0.49,brute_force auto_generated_detail_362,7,False,knowledge_articles\INC0185.md
+INC0181,2025-11-09 04:53:55,Suspicious File Activity,bob,10.0.0.48,file_download auto_generated_detail_357,7,False,knowledge_articles\INC0181.md
+INC0177,2025-11-09 04:34:31,Suspicious File Activity,bob,10.0.0.38,file_access auto_generated_detail_349,7,False,knowledge_articles\INC0177.md
+INC0175,2025-11-09 04:29:31,Suspicious File Activity,alice,10.0.0.7,file_access auto_generated_detail_347,7,False,knowledge_articles\INC0175.md
+INC0173,2025-11-09 04:21:37,Suspicious File Activity,alice,10.0.0.30,file_access auto_generated_detail_344,7,False,knowledge_articles\INC0173.md
+INC0172,2025-11-09 04:14:47,Suspicious File Activity,dave,10.0.0.38,file_access auto_generated_detail_342,7,False,knowledge_articles\INC0172.md
+INC0167,2025-11-09 03:44:24,Suspicious File Activity,carol,10.0.0.47,file_access auto_generated_detail_331,7,False,knowledge_articles\INC0167.md
+INC0216,2025-11-09 08:06:13,Suspicious File Activity,dave,10.0.0.22,file_access auto_generated_detail_429,7,False,knowledge_articles\INC0216.md
+INC0166,2025-11-09 03:40:35,Suspicious File Activity,bob,10.0.0.6,file_download auto_generated_detail_330,7,False,knowledge_articles\INC0166.md
+INC0161,2025-11-09 03:13:49,Suspicious File Activity,dave,10.0.0.38,file_access auto_generated_detail_318,7,False,knowledge_articles\INC0161.md
+INC0160,2025-11-09 03:02:33,Suspicious File Activity,alice,10.0.0.19,file_access auto_generated_detail_313,7,False,knowledge_articles\INC0160.md
+INC0155,2025-11-09 02:29:33,Suspicious File Activity,bob,10.0.0.22,file_access auto_generated_detail_301,7,False,knowledge_articles\INC0155.md
+INC0154,2025-11-09 02:21:37,Suspicious File Activity,admin,10.0.0.43,file_download auto_generated_detail_298,7,False,knowledge_articles\INC0154.md
+INC0151,2025-11-09 02:05:49,Suspicious File Activity,admin,10.0.0.29,file_access auto_generated_detail_292,7,False,knowledge_articles\INC0151.md
+INC0186,2025-11-09 05:22:56,Suspicious File Activity,alice,10.0.0.23,file_download auto_generated_detail_368,7,False,knowledge_articles\INC0186.md
+INC0188,2025-11-09 05:45:49,Suspicious File Activity,admin,10.0.0.5,file_access auto_generated_detail_376,7,False,knowledge_articles\INC0188.md
+INC0143,2025-11-09 01:21:05,Suspicious File Activity,carol,10.0.0.33,file_access auto_generated_detail_273,7,False,knowledge_articles\INC0143.md
+INC0190,2025-11-09 06:06:43,Brute Force / Authentication Attack,bob,10.0.0.26,brute_force auto_generated_detail_382,7,False,knowledge_articles\INC0190.md
+INC0193,2025-11-09 06:21:26,Suspicious File Activity,bob,10.0.0.2,file_copied auto_generated_detail_386,7,False,knowledge_articles\INC0193.md
+INC0195,2025-11-09 06:27:37,Suspicious File Activity,alice,10.0.0.28,file_access auto_generated_detail_389,7,False,knowledge_articles\INC0195.md
+INC0197,2025-11-09 06:33:22,Suspicious File Activity,bob,10.0.0.2,file_access auto_generated_detail_392,7,False,knowledge_articles\INC0197.md
+INC0198,2025-11-09 06:35:35,Suspicious File Activity,carol,10.0.0.13,file_access auto_generated_detail_393,7,False,knowledge_articles\INC0198.md
+INC0200,2025-11-09 06:44:36,Suspicious File Activity,admin,10.0.0.4,file_access auto_generated_detail_396,7,False,knowledge_articles\INC0200.md
+INC0201,2025-11-09 06:48:41,Suspicious File Activity,bob,10.0.0.48,file_access auto_generated_detail_398,7,False,knowledge_articles\INC0201.md
+INC0141,2025-11-09 01:12:37,Suspicious File Activity,carol,10.0.0.49,file_access auto_generated_detail_271,7,False,knowledge_articles\INC0141.md
+INC0208,2025-11-09 07:29:26,Suspicious File Activity,dave,10.0.0.24,file_access auto_generated_detail_415,7,False,knowledge_articles\INC0208.md
+INC0209,2025-11-09 07:36:55,Suspicious File Activity,bob,10.0.0.49,file_access auto_generated_detail_417,7,False,knowledge_articles\INC0209.md
+INC0210,2025-11-09 07:37:20,Suspicious File Activity,alice,10.0.0.40,file_access auto_generated_detail_418,7,False,knowledge_articles\INC0210.md
+INC0213,2025-11-09 07:54:58,Suspicious File Activity,alice,10.0.0.18,file_access auto_generated_detail_425,7,False,knowledge_articles\INC0213.md
+INC0214,2025-11-09 07:56:57,Suspicious File Activity,svc_sync,10.0.0.20,file_access auto_generated_detail_426,7,False,knowledge_articles\INC0214.md
+INC0215,2025-11-09 08:01:18,Suspicious File Activity,alice,10.0.0.10,file_download auto_generated_detail_427,7,False,knowledge_articles\INC0215.md
+INC0126,2025-11-08 23:57:45,Suspicious File Activity,carol,10.0.0.29,file_access auto_generated_detail_244,7,False,knowledge_articles\INC0126.md
+INC0437,2025-11-10 04:32:18,Phishing / Email Abuse,carol,10.0.0.32,email_sent auto_generated_detail_907,7,False,knowledge_articles\INC0437.md
+INC0105,2025-11-08 22:13:26,Suspicious File Activity,alice,10.0.0.27,file_download auto_generated_detail_207,7,False,knowledge_articles\INC0105.md
+INC0002,2025-11-08 13:17:46,Authentication Failure,admin,203.0.113.55,login_failed auto_generated_detail_1,7,True,knowledge_articles\INC0002.md
+INC0113,2025-11-08 22:56:22,Brute Force / Authentication Attack,dave,10.0.0.39,brute_force auto_generated_detail_222,7,False,knowledge_articles\INC0113.md
+INC0112,2025-11-08 22:46:40,Suspicious File Activity,dave,10.0.0.10,file_download auto_generated_detail_219,7,False,knowledge_articles\INC0112.md
+INC0098,2025-11-08 21:29:32,Suspicious File Activity,svc_backup,10.0.0.42,file_access auto_generated_detail_191,7,False,knowledge_articles\INC0098.md
+INC0097,2025-11-08 21:13:22,Suspicious File Activity,svc_backup,10.0.0.15,file_access auto_generated_detail_186,7,False,knowledge_articles\INC0097.md
+INC0350,2025-11-09 20:46:14,Phishing / Email Abuse,alice,10.0.0.46,email_sent auto_generated_detail_710,7,False,knowledge_articles\INC0350.md
+INC0386,2025-11-09 23:58:43,Phishing / Email Abuse,carol,10.0.0.18,email_sent auto_generated_detail_791,7,False,knowledge_articles\INC0386.md
+INC0110,2025-11-08 22:35:59,Suspicious File Activity,bob,10.0.0.9,file_access auto_generated_detail_215,7,False,knowledge_articles\INC0110.md
+INC0367,2025-11-09 22:01:37,Phishing / Email Abuse,alice,10.0.0.7,email_sent auto_generated_detail_743,7,False,knowledge_articles\INC0367.md
+INC0347,2025-11-09 20:24:54,Authentication Abnormality,admin,10.0.0.48,login_success auto_generated_detail_702,7,False,knowledge_articles\INC0347.md
+INC0121,2025-11-08 23:41:23,Suspicious File Activity,carol,10.0.0.38,file_access auto_generated_detail_238,7,False,knowledge_articles\INC0121.md
+INC0122,2025-11-08 23:43:05,Suspicious File Activity,alice,10.0.0.7,file_access auto_generated_detail_239,7,False,knowledge_articles\INC0122.md
+INC0102,2025-11-08 21:44:30,Suspicious File Activity,alice,10.0.0.4,file_copied auto_generated_detail_197,7,False,knowledge_articles\INC0102.md
+INC0100,2025-11-08 21:37:00,Suspicious File Activity,bob,10.0.0.31,file_access auto_generated_detail_195,7,False,knowledge_articles\INC0100.md
+INC0107,2025-11-08 22:27:47,Suspicious File Activity,alice,10.0.0.42,file_access auto_generated_detail_212,7,False,knowledge_articles\INC0107.md
+INC0103,2025-11-08 21:52:11,Brute Force / Authentication Attack,svc_backup,10.0.0.13,brute_force auto_generated_detail_201,7,False,knowledge_articles\INC0103.md
+INC0109,2025-11-08 22:34:51,Brute Force / Authentication Attack,bob,10.0.0.16,brute_force auto_generated_detail_214,7,False,knowledge_articles\INC0109.md
+INC0421,2025-11-10 03:23:58,Phishing / Email Abuse,alice,10.0.0.15,email_sent auto_generated_detail_879,7,False,knowledge_articles\INC0421.md
+INC0424,2025-11-10 03:35:24,Phishing / Email Abuse,alice,10.0.0.5,email_sent auto_generated_detail_884,7,False,knowledge_articles\INC0424.md
+INC0655,2025-11-10 22:55:10,Authentication Failure,alice,10.0.0.26,login_failed auto_generated_detail_1347,6,False,knowledge_articles\INC0655.md
+INC0607,2025-11-10 18:53:31,Authentication Failure,alice,10.0.0.13,login_failed auto_generated_detail_1250,6,False,knowledge_articles\INC0607.md
+INC0204,2025-11-09 07:02:52,Phishing / Email Abuse,admin,10.0.0.22,email_sent auto_generated_detail_404,6,False,knowledge_articles\INC0204.md
+INC0393,2025-11-10 00:31:52,Authentication Failure,bob,10.0.0.38,login_failed auto_generated_detail_803,6,False,knowledge_articles\INC0393.md
+INC0617,2025-11-10 19:43:20,Authentication Failure,dave,10.0.0.19,login_failed auto_generated_detail_1268,6,False,knowledge_articles\INC0617.md
+INC0611,2025-11-10 19:12:51,Authentication Failure,dave,10.0.0.14,login_failed auto_generated_detail_1257,6,False,knowledge_articles\INC0611.md
+INC0396,2025-11-10 00:59:36,Authentication Failure,dave,10.0.0.33,login_failed auto_generated_detail_813,6,False,knowledge_articles\INC0396.md
+INC0613,2025-11-10 19:30:21,Authentication Failure,alice,10.0.0.4,login_failed auto_generated_detail_1262,6,False,knowledge_articles\INC0613.md
+INC0392,2025-11-10 00:27:34,Authentication Failure,dave,10.0.0.24,login_failed auto_generated_detail_802,6,False,knowledge_articles\INC0392.md
+INC0140,2025-11-09 01:03:55,Phishing / Email Abuse,carol,10.0.0.31,email_sent auto_generated_detail_267,6,False,knowledge_articles\INC0140.md
+INC0390,2025-11-10 00:18:36,Authentication Failure,carol,10.0.0.37,login_failed auto_generated_detail_799,6,False,knowledge_articles\INC0390.md
+INC0388,2025-11-10 00:10:18,Authentication Failure,dave,10.0.0.27,login_failed auto_generated_detail_795,6,False,knowledge_articles\INC0388.md
+INC0645,2025-11-10 22:23:19,Authentication Failure,alice,10.0.0.10,login_failed auto_generated_detail_1334,6,False,knowledge_articles\INC0645.md
+INC0644,2025-11-10 22:17:07,Authentication Failure,alice,10.0.0.26,login_failed auto_generated_detail_1331,6,False,knowledge_articles\INC0644.md
+INC0467,2025-11-10 06:47:45,Authentication Failure,alice,10.0.0.45,login_failed auto_generated_detail_965,6,False,knowledge_articles\INC0467.md
+INC0470,2025-11-10 07:01:10,Authentication Failure,carol,10.0.0.17,login_failed auto_generated_detail_968,6,False,knowledge_articles\INC0470.md
+INC0627,2025-11-10 20:29:59,Authentication Failure,svc_backup,10.0.0.34,login_failed auto_generated_detail_1285,6,False,knowledge_articles\INC0627.md
+INC0464,2025-11-10 06:35:41,Authentication Failure,alice,10.0.0.39,login_failed auto_generated_detail_960,6,False,knowledge_articles\INC0464.md
+INC0336,2025-11-09 19:42:55,Authentication Failure,carol,10.0.0.9,login_failed auto_generated_detail_684,6,False,knowledge_articles\INC0336.md
+INC0640,2025-11-10 21:57:29,Authentication Failure,alice,10.0.0.31,login_failed auto_generated_detail_1324,6,False,knowledge_articles\INC0640.md
+INC0639,2025-11-10 21:55:44,Authentication Failure,carol,10.0.0.40,login_failed auto_generated_detail_1323,6,False,knowledge_articles\INC0639.md
+INC0638,2025-11-10 21:33:55,Authentication Failure,dave,10.0.0.37,login_failed auto_generated_detail_1315,6,False,knowledge_articles\INC0638.md
+INC0658,2025-11-10 23:10:40,Authentication Failure,carol,10.0.0.49,login_failed auto_generated_detail_1354,6,False,knowledge_articles\INC0658.md
+INC0635,2025-11-10 21:11:13,Authentication Failure,carol,10.0.0.49,login_failed auto_generated_detail_1304,6,False,knowledge_articles\INC0635.md
+INC0634,2025-11-10 21:09:23,Authentication Failure,bob,10.0.0.14,login_failed auto_generated_detail_1303,6,False,knowledge_articles\INC0634.md
+INC0032,2025-11-08 15:28:41,Phishing / Email Abuse,dave,10.0.0.7,email_sent auto_generated_detail_54,6,False,knowledge_articles\INC0032.md
+INC0622,2025-11-10 20:07:30,Authentication Failure,svc_backup,10.0.0.22,login_failed auto_generated_detail_1277,6,False,knowledge_articles\INC0622.md
+INC0632,2025-11-10 20:53:03,Authentication Failure,carol,10.0.0.22,login_failed auto_generated_detail_1296,6,False,knowledge_articles\INC0632.md
+INC0384,2025-11-09 23:45:49,Authentication Failure,svc_sync,10.0.0.27,login_failed auto_generated_detail_785,6,False,knowledge_articles\INC0384.md
+INC0628,2025-11-10 20:35:09,Authentication Failure,dave,10.0.0.7,login_failed auto_generated_detail_1288,6,False,knowledge_articles\INC0628.md
+INC0030,2025-11-08 15:09:56,Phishing / Email Abuse,carol,10.0.0.48,email_sent auto_generated_detail_46,6,False,knowledge_articles\INC0030.md
+INC0664,2025-11-10 23:52:23,Authentication Failure,carol,10.0.0.7,login_failed auto_generated_detail_1368,6,False,knowledge_articles\INC0664.md
+INC0660,2025-11-10 23:20:31,Authentication Failure,admin,10.0.0.17,login_failed auto_generated_detail_1357,6,False,knowledge_articles\INC0660.md
+INC0696,2025-11-11 01:54:14,Authentication Failure,svc_backup,10.0.0.30,login_failed auto_generated_detail_1417,6,False,knowledge_articles\INC0696.md
+INC0701,2025-11-11 02:29:43,Authentication Failure,carol,10.0.0.15,login_failed auto_generated_detail_1429,6,False,knowledge_articles\INC0701.md
+INC0703,2025-11-11 02:51:39,Authentication Failure,svc_sync,10.0.0.31,login_failed auto_generated_detail_1437,6,False,knowledge_articles\INC0703.md
+INC0414,2025-11-10 02:55:14,Authentication Failure,dave,10.0.0.41,login_failed auto_generated_detail_867,6,False,knowledge_articles\INC0414.md
+INC0170,2025-11-09 03:59:40,Phishing / Email Abuse,carol,10.0.0.14,email_sent auto_generated_detail_337,6,False,knowledge_articles\INC0170.md
+INC0436,2025-11-10 04:25:48,Authentication Failure,bob,10.0.0.4,login_failed auto_generated_detail_905,6,False,knowledge_articles\INC0436.md
+INC0707,2025-11-11 03:26:00,Authentication Failure,dave,10.0.0.29,login_failed auto_generated_detail_1450,6,False,knowledge_articles\INC0707.md
+INC0417,2025-11-10 03:05:00,Authentication Failure,bob,10.0.0.33,login_failed auto_generated_detail_871,6,False,knowledge_articles\INC0417.md
+INC0712,2025-11-11 03:51:56,Authentication Failure,bob,10.0.0.41,login_failed auto_generated_detail_1459,6,False,knowledge_articles\INC0712.md
+INC0432,2025-11-10 04:02:59,Authentication Failure,carol,10.0.0.2,login_failed auto_generated_detail_897,6,False,knowledge_articles\INC0432.md
+INC0158,2025-11-09 02:40:43,Phishing / Email Abuse,bob,10.0.0.44,email_sent auto_generated_detail_306,6,False,knowledge_articles\INC0158.md
+INC0720,2025-11-11 04:33:42,Authentication Failure,carol,10.0.0.31,login_failed auto_generated_detail_1475,6,False,knowledge_articles\INC0720.md
+INC0721,2025-11-11 04:40:19,Authentication Failure,bob,10.0.0.2,login_failed auto_generated_detail_1477,6,False,knowledge_articles\INC0721.md
+INC0156,2025-11-09 02:32:54,Phishing / Email Abuse,svc_sync,10.0.0.45,email_sent auto_generated_detail_302,6,False,knowledge_articles\INC0156.md
+INC0431,2025-11-10 03:59:26,Authentication Failure,bob,10.0.0.45,login_failed auto_generated_detail_896,6,False,knowledge_articles\INC0431.md
+INC0724,2025-11-11 05:09:53,Authentication Failure,carol,10.0.0.23,login_failed auto_generated_detail_1486,6,False,knowledge_articles\INC0724.md
+INC0727,2025-11-11 05:18:33,Authentication Failure,bob,10.0.0.42,login_failed auto_generated_detail_1490,6,False,knowledge_articles\INC0727.md
+INC0425,2025-11-10 03:37:15,Authentication Failure,bob,10.0.0.31,login_failed auto_generated_detail_885,6,False,knowledge_articles\INC0425.md
+INC0438,2025-11-10 04:40:26,Authentication Failure,alice,10.0.0.8,login_failed auto_generated_detail_909,6,False,knowledge_articles\INC0438.md
+INC0413,2025-11-10 02:40:30,Authentication Failure,dave,10.0.0.32,login_failed auto_generated_detail_858,6,False,knowledge_articles\INC0413.md
+INC0661,2025-11-10 23:24:03,Authentication Failure,svc_sync,10.0.0.4,login_failed auto_generated_detail_1358,6,False,knowledge_articles\INC0661.md
+INC0691,2025-11-11 01:37:32,Authentication Failure,carol,10.0.0.12,login_failed auto_generated_detail_1411,6,False,knowledge_articles\INC0691.md
+INC0455,2025-11-10 05:51:53,Authentication Failure,bob,10.0.0.8,login_failed auto_generated_detail_942,6,False,knowledge_articles\INC0455.md
+INC0604,2025-11-10 18:31:47,Authentication Failure,carol,10.0.0.46,login_failed auto_generated_detail_1244,6,False,knowledge_articles\INC0604.md
+INC0454,2025-11-10 05:50:43,Authentication Failure,dave,10.0.0.8,login_failed auto_generated_detail_941,6,False,knowledge_articles\INC0454.md
+INC0398,2025-11-10 01:08:05,Authentication Failure,alice,10.0.0.11,login_failed auto_generated_detail_817,6,False,knowledge_articles\INC0398.md
+INC0671,2025-11-11 00:15:32,Authentication Failure,alice,10.0.0.44,login_failed auto_generated_detail_1378,6,False,knowledge_articles\INC0671.md
+INC0191,2025-11-09 06:10:04,Phishing / Email Abuse,alice,10.0.0.22,email_sent auto_generated_detail_383,6,False,knowledge_articles\INC0191.md
+INC0019,2025-11-08 14:28:03,Phishing / Email Abuse,dave,10.0.0.34,email_sent auto_generated_detail_30,6,False,knowledge_articles\INC0019.md
+INC0409,2025-11-10 02:06:46,Authentication Failure,alice,10.0.0.38,login_failed auto_generated_detail_845,6,False,knowledge_articles\INC0409.md
+INC0679,2025-11-11 00:36:37,Authentication Failure,bob,10.0.0.28,login_failed auto_generated_detail_1388,6,False,knowledge_articles\INC0679.md
+INC0680,2025-11-11 00:38:34,Authentication Failure,carol,10.0.0.8,login_failed auto_generated_detail_1389,6,False,knowledge_articles\INC0680.md
+INC0411,2025-11-10 02:21:42,Authentication Failure,dave,10.0.0.32,login_failed auto_generated_detail_850,6,False,knowledge_articles\INC0411.md
+INC0682,2025-11-11 00:49:02,Authentication Failure,svc_backup,10.0.0.41,login_failed auto_generated_detail_1392,6,False,knowledge_articles\INC0682.md
+INC0683,2025-11-11 00:53:38,Authentication Failure,dave,10.0.0.33,login_failed auto_generated_detail_1393,6,False,knowledge_articles\INC0683.md
+INC0442,2025-11-10 04:53:45,Authentication Failure,bob,10.0.0.14,login_failed auto_generated_detail_915,6,False,knowledge_articles\INC0442.md
+INC0686,2025-11-11 01:14:10,Authentication Failure,bob,10.0.0.48,login_failed auto_generated_detail_1401,6,False,knowledge_articles\INC0686.md
+INC0184,2025-11-09 05:02:00,Phishing / Email Abuse,alice,10.0.0.47,email_sent auto_generated_detail_360,6,False,knowledge_articles\INC0184.md
+INC0690,2025-11-11 01:26:54,Authentication Failure,dave,10.0.0.21,login_failed auto_generated_detail_1407,6,False,knowledge_articles\INC0690.md
+INC0472,2025-11-10 07:05:14,Authentication Failure,alice,10.0.0.12,login_failed auto_generated_detail_970,6,False,knowledge_articles\INC0472.md
+INC0337,2025-11-09 19:45:22,Authentication Failure,dave,10.0.0.25,login_failed auto_generated_detail_685,6,False,knowledge_articles\INC0337.md
+INC0426,2025-11-10 03:42:26,Authentication Failure,alice,10.0.0.32,login_failed auto_generated_detail_887,6,False,knowledge_articles\INC0426.md
+INC0281,2025-11-09 13:49:53,Phishing / Email Abuse,svc_backup,10.0.0.49,email_sent auto_generated_detail_557,6,False,knowledge_articles\INC0281.md
+INC0577,2025-11-10 16:09:20,Authentication Failure,bob,10.0.0.25,login_failed auto_generated_detail_1184,6,False,knowledge_articles\INC0577.md
+INC0575,2025-11-10 15:52:03,Authentication Failure,dave,10.0.0.17,login_failed auto_generated_detail_1177,6,False,knowledge_articles\INC0575.md
+INC0320,2025-11-09 17:46:19,Authentication Failure,alice,10.0.0.40,login_failed auto_generated_detail_643,6,False,knowledge_articles\INC0320.md
+INC0500,2025-11-10 09:22:16,Authentication Failure,dave,10.0.0.22,login_failed auto_generated_detail_1025,6,False,knowledge_articles\INC0500.md
+INC0569,2025-11-10 15:13:17,Authentication Failure,bob,10.0.0.22,login_failed auto_generated_detail_1164,6,False,knowledge_articles\INC0569.md
+INC0521,2025-11-10 11:37:59,Authentication Failure,bob,10.0.0.36,login_failed auto_generated_detail_1076,6,False,knowledge_articles\INC0521.md
+INC0485,2025-11-10 07:57:13,Authentication Failure,svc_sync,10.0.0.2,login_failed auto_generated_detail_992,6,False,knowledge_articles\INC0485.md
+INC0499,2025-11-10 09:21:29,Authentication Failure,carol,10.0.0.38,login_failed auto_generated_detail_1024,6,False,knowledge_articles\INC0499.md
+INC0365,2025-11-09 21:58:42,Authentication Failure,carol,10.0.0.27,login_failed auto_generated_detail_741,6,False,knowledge_articles\INC0365.md
+INC0523,2025-11-10 11:42:03,Authentication Failure,alice,10.0.0.34,login_failed auto_generated_detail_1078,6,False,knowledge_articles\INC0523.md
+INC0310,2025-11-09 16:41:23,Authentication Failure,alice,10.0.0.30,login_failed auto_generated_detail_620,6,False,knowledge_articles\INC0310.md
+INC0309,2025-11-09 16:21:57,Authentication Failure,dave,10.0.0.30,login_failed auto_generated_detail_613,6,False,knowledge_articles\INC0309.md
+INC0488,2025-11-10 08:17:26,Authentication Failure,bob,10.0.0.46,login_failed auto_generated_detail_999,6,False,knowledge_articles\INC0488.md
+INC0557,2025-11-10 14:29:44,Authentication Failure,bob,10.0.0.27,login_failed auto_generated_detail_1147,6,False,knowledge_articles\INC0557.md
+INC0501,2025-11-10 09:32:48,Authentication Failure,svc_backup,10.0.0.41,login_failed auto_generated_detail_1029,6,False,knowledge_articles\INC0501.md
+INC0556,2025-11-10 14:19:16,Authentication Failure,carol,10.0.0.27,login_failed auto_generated_detail_1143,6,False,knowledge_articles\INC0556.md
+INC0358,2025-11-09 21:25:30,Authentication Failure,alice,10.0.0.40,login_failed auto_generated_detail_729,6,False,knowledge_articles\INC0358.md
+INC0492,2025-11-10 08:28:04,Authentication Failure,dave,10.0.0.37,login_failed auto_generated_detail_1004,6,False,knowledge_articles\INC0492.md
+INC0071,2025-11-08 18:56:09,Phishing / Email Abuse,dave,10.0.0.31,email_sent auto_generated_detail_135,6,False,knowledge_articles\INC0071.md
+INC0374,2025-11-09 22:31:27,Authentication Failure,bob,10.0.0.6,login_failed auto_generated_detail_758,6,False,knowledge_articles\INC0374.md
+INC0530,2025-11-10 12:07:12,Authentication Failure,dave,10.0.0.18,login_failed auto_generated_detail_1088,6,False,knowledge_articles\INC0530.md
+INC0546,2025-11-10 13:34:19,Authentication Failure,bob,10.0.0.37,login_failed auto_generated_detail_1125,6,False,knowledge_articles\INC0546.md
+INC0545,2025-11-10 13:19:48,Authentication Failure,carol,10.0.0.9,login_failed auto_generated_detail_1120,6,False,knowledge_articles\INC0545.md
+INC0544,2025-11-10 13:12:38,Authentication Failure,bob,10.0.0.18,login_failed auto_generated_detail_1117,6,False,knowledge_articles\INC0544.md
+INC0534,2025-11-10 12:20:54,Authentication Failure,bob,10.0.0.32,login_failed auto_generated_detail_1097,6,False,knowledge_articles\INC0534.md
+INC0540,2025-11-10 12:53:51,Authentication Failure,admin,10.0.0.36,login_failed auto_generated_detail_1111,6,False,knowledge_articles\INC0540.md
+INC0539,2025-11-10 12:53:22,Authentication Failure,carol,10.0.0.13,login_failed auto_generated_detail_1110,6,False,knowledge_articles\INC0539.md
+INC0535,2025-11-10 12:29:05,Authentication Failure,bob,10.0.0.13,login_failed auto_generated_detail_1101,6,False,knowledge_articles\INC0535.md
+INC0579,2025-11-10 16:24:58,Authentication Failure,bob,10.0.0.41,login_failed auto_generated_detail_1191,6,False,knowledge_articles\INC0579.md
+INC0571,2025-11-10 15:28:47,Authentication Failure,svc_sync,10.0.0.46,login_failed auto_generated_detail_1169,6,False,knowledge_articles\INC0571.md
+INC0516,2025-11-10 11:10:17,Authentication Failure,dave,10.0.0.11,login_failed auto_generated_detail_1066,6,False,knowledge_articles\INC0516.md
+INC0589,2025-11-10 17:13:17,Authentication Failure,svc_backup,10.0.0.32,login_failed auto_generated_detail_1209,6,False,knowledge_articles\INC0589.md
+INC0601,2025-11-10 18:12:34,Authentication Failure,dave,10.0.0.37,login_failed auto_generated_detail_1235,6,False,knowledge_articles\INC0601.md
+INC0373,2025-11-09 22:24:50,Authentication Failure,alice,10.0.0.4,login_failed auto_generated_detail_756,6,False,knowledge_articles\INC0373.md
+INC0599,2025-11-10 18:09:14,Authentication Failure,carol,10.0.0.15,login_failed auto_generated_detail_1233,6,False,knowledge_articles\INC0599.md
+INC0335,2025-11-09 19:38:32,Authentication Failure,alice,10.0.0.31,login_failed auto_generated_detail_683,6,False,knowledge_articles\INC0335.md
+INC0476,2025-11-10 07:24:07,Authentication Failure,bob,10.0.0.4,login_failed auto_generated_detail_977,6,False,knowledge_articles\INC0476.md
+INC0334,2025-11-09 19:33:53,Authentication Failure,carol,10.0.0.7,login_failed auto_generated_detail_681,6,False,knowledge_articles\INC0334.md
+INC0428,2025-11-10 03:50:25,Authentication Failure,bob,10.0.0.28,login_failed auto_generated_detail_891,6,False,knowledge_articles\INC0428.md
+INC0478,2025-11-10 07:33:09,Authentication Failure,admin,10.0.0.23,login_failed auto_generated_detail_981,6,False,knowledge_articles\INC0478.md
+INC0593,2025-11-10 17:40:05,Authentication Failure,bob,10.0.0.49,login_failed auto_generated_detail_1219,6,False,knowledge_articles\INC0593.md
+INC0590,2025-11-10 17:15:41,Authentication Failure,bob,10.0.0.2,login_failed auto_generated_detail_1211,6,False,knowledge_articles\INC0590.md
+INC0329,2025-11-09 19:10:46,Authentication Failure,bob,10.0.0.11,login_failed auto_generated_detail_673,6,False,knowledge_articles\INC0329.md
+INC0326,2025-11-09 18:22:17,Authentication Failure,carol,10.0.0.24,login_failed auto_generated_detail_656,6,False,knowledge_articles\INC0326.md
+INC0299,2025-11-09 15:12:19,Phishing / Email Abuse,carol,10.0.0.44,email_sent auto_generated_detail_588,6,False,knowledge_articles\INC0299.md
+INC0512,2025-11-10 11:00:39,Authentication Failure,alice,10.0.0.39,login_failed auto_generated_detail_1062,6,False,knowledge_articles\INC0512.md
+INC0325,2025-11-09 18:16:19,Authentication Failure,alice,10.0.0.3,login_failed auto_generated_detail_653,6,False,knowledge_articles\INC0325.md
+INC0586,2025-11-10 16:51:26,Authentication Failure,carol,10.0.0.10,login_failed auto_generated_detail_1203,6,False,knowledge_articles\INC0586.md
+INC0256,2025-11-09 11:35:55,Phishing / Email Abuse,dave,10.0.0.13,email_sent auto_generated_detail_508,6,False,knowledge_articles\INC0256.md
+INC0368,2025-11-09 22:04:40,Authentication Failure,alice,10.0.0.24,login_failed auto_generated_detail_746,6,False,knowledge_articles\INC0368.md
+INC0324,2025-11-09 18:09:50,Authentication Failure,dave,10.0.0.37,login_failed auto_generated_detail_651,6,False,knowledge_articles\INC0324.md
+INC0583,2025-11-10 16:42:46,Authentication Failure,svc_backup,10.0.0.32,login_failed auto_generated_detail_1199,6,False,knowledge_articles\INC0583.md
+INC0148,2025-11-09 01:55:53,Authentication Failure,bob,10.0.0.25,login_failed auto_generated_detail_288,5,False,knowledge_articles\INC0148.md
+INC0150,2025-11-09 01:57:30,Authentication Failure,dave,10.0.0.44,login_failed auto_generated_detail_290,5,False,knowledge_articles\INC0150.md
+INC0062,2025-11-08 18:14:46,Authentication Failure,alice,10.0.0.46,login_failed auto_generated_detail_117,5,False,knowledge_articles\INC0062.md
+INC0179,2025-11-09 04:42:53,Authentication Failure,svc_sync,10.0.0.35,login_failed auto_generated_detail_353,5,False,knowledge_articles\INC0179.md
+INC0180,2025-11-09 04:50:28,Authentication Failure,alice,10.0.0.8,login_failed auto_generated_detail_356,5,False,knowledge_articles\INC0180.md
+INC0302,2025-11-09 15:41:01,Authentication Failure,bob,10.0.0.26,login_failed auto_generated_detail_598,5,False,knowledge_articles\INC0302.md
+INC0176,2025-11-09 04:34:00,Authentication Failure,bob,10.0.0.39,login_failed auto_generated_detail_348,5,False,knowledge_articles\INC0176.md
+INC0147,2025-11-09 01:55:11,Authentication Failure,alice,10.0.0.28,login_failed auto_generated_detail_287,5,False,knowledge_articles\INC0147.md
+INC0094,2025-11-08 20:58:43,Authentication Failure,bob,10.0.0.6,login_failed auto_generated_detail_180,5,False,knowledge_articles\INC0094.md
+INC0164,2025-11-09 03:33:33,Authentication Failure,bob,10.0.0.2,login_failed auto_generated_detail_326,5,False,knowledge_articles\INC0164.md
+INC0165,2025-11-09 03:37:23,Authentication Failure,alice,10.0.0.26,login_failed auto_generated_detail_327,5,False,knowledge_articles\INC0165.md
+INC0159,2025-11-09 02:51:35,Authentication Failure,alice,10.0.0.44,login_failed auto_generated_detail_309,5,False,knowledge_articles\INC0159.md
+INC0014,2025-11-08 14:08:27,Authentication Failure,bob,10.0.0.10,login_failed auto_generated_detail_22,5,False,knowledge_articles\INC0014.md
+INC0152,2025-11-09 02:13:31,Authentication Failure,carol,10.0.0.39,login_failed auto_generated_detail_295,5,False,knowledge_articles\INC0152.md
+INC0300,2025-11-09 15:21:28,Authentication Failure,bob,10.0.0.3,login_failed auto_generated_detail_590,5,False,knowledge_articles\INC0300.md
+INC0153,2025-11-09 02:16:27,Authentication Failure,bob,10.0.0.40,login_failed auto_generated_detail_296,5,False,knowledge_articles\INC0153.md
+INC0067,2025-11-08 18:42:07,Authentication Failure,bob,10.0.0.23,login_failed auto_generated_detail_128,5,False,knowledge_articles\INC0067.md
+INC0090,2025-11-08 20:31:58,Authentication Failure,alice,10.0.0.49,login_failed auto_generated_detail_172,5,False,knowledge_articles\INC0090.md
+INC0174,2025-11-09 04:24:07,Authentication Failure,carol,10.0.0.24,login_failed auto_generated_detail_345,5,False,knowledge_articles\INC0174.md
+INC0069,2025-11-08 18:50:06,Authentication Failure,carol,10.0.0.49,login_failed auto_generated_detail_132,5,False,knowledge_articles\INC0069.md
+INC0123,2025-11-08 23:46:30,Authentication Failure,carol,10.0.0.17,login_failed auto_generated_detail_240,5,False,knowledge_articles\INC0123.md
+INC0157,2025-11-09 02:39:31,Authentication Failure,alice,10.0.0.37,login_failed auto_generated_detail_305,5,False,knowledge_articles\INC0157.md
+INC0093,2025-11-08 20:53:14,Authentication Failure,alice,10.0.0.2,login_failed auto_generated_detail_177,5,False,knowledge_articles\INC0093.md
+INC0013,2025-11-08 14:04:53,Authentication Failure,carol,10.0.0.49,login_failed auto_generated_detail_21,5,False,knowledge_articles\INC0013.md
+INC0128,2025-11-09 00:06:05,Authentication Failure,alice,10.0.0.26,login_failed auto_generated_detail_246,5,False,knowledge_articles\INC0128.md
+INC0038,2025-11-08 16:19:36,Authentication Failure,svc_sync,10.0.0.6,login_failed auto_generated_detail_69,5,False,knowledge_articles\INC0038.md
+INC0016,2025-11-08 14:14:21,Authentication Failure,bob,10.0.0.31,login_failed auto_generated_detail_25,5,False,knowledge_articles\INC0016.md
+INC0298,2025-11-09 15:09:11,Authentication Failure,svc_sync,10.0.0.5,login_failed auto_generated_detail_584,5,False,knowledge_articles\INC0298.md
+INC0261,2025-11-09 12:06:57,Authentication Failure,svc_sync,10.0.0.21,login_failed auto_generated_detail_519,5,False,knowledge_articles\INC0261.md
+INC0031,2025-11-08 15:21:46,Authentication Failure,bob,10.0.0.14,login_failed auto_generated_detail_51,5,False,knowledge_articles\INC0031.md
+INC0260,2025-11-09 12:02:14,Authentication Failure,alice,10.0.0.10,login_failed auto_generated_detail_517,5,False,knowledge_articles\INC0260.md
+INC0045,2025-11-08 16:51:03,Authentication Failure,carol,10.0.0.25,login_failed auto_generated_detail_82,5,False,knowledge_articles\INC0045.md
+INC0033,2025-11-08 15:30:52,Authentication Failure,alice,10.0.0.33,login_failed auto_generated_detail_55,5,False,knowledge_articles\INC0033.md
+INC0220,2025-11-09 08:26:20,Authentication Failure,svc_sync,10.0.0.48,login_failed auto_generated_detail_436,5,False,knowledge_articles\INC0220.md
+INC0044,2025-11-08 16:45:49,Authentication Failure,alice,10.0.0.30,login_failed auto_generated_detail_80,5,False,knowledge_articles\INC0044.md
+INC0034,2025-11-08 15:45:31,Authentication Failure,alice,10.0.0.5,login_failed auto_generated_detail_59,5,False,knowledge_articles\INC0034.md
+INC0224,2025-11-09 09:03:15,Authentication Failure,carol,10.0.0.42,login_failed auto_generated_detail_450,5,False,knowledge_articles\INC0224.md
+INC0036,2025-11-08 16:05:46,Authentication Failure,carol,10.0.0.38,login_failed auto_generated_detail_65,5,False,knowledge_articles\INC0036.md
+INC0234,2025-11-09 09:57:19,Authentication Failure,carol,10.0.0.27,login_failed auto_generated_detail_470,5,False,knowledge_articles\INC0234.md
+INC0078,2025-11-08 19:21:15,Authentication Failure,carol,10.0.0.21,login_failed auto_generated_detail_148,5,False,knowledge_articles\INC0078.md
+INC0252,2025-11-09 11:25:33,Authentication Failure,bob,10.0.0.32,login_failed auto_generated_detail_502,5,False,knowledge_articles\INC0252.md
+INC0236,2025-11-09 10:13:10,Authentication Failure,carol,10.0.0.34,login_failed auto_generated_detail_475,5,False,knowledge_articles\INC0236.md
+INC0238,2025-11-09 10:21:43,Authentication Failure,dave,10.0.0.39,login_failed auto_generated_detail_479,5,False,knowledge_articles\INC0238.md
+INC0134,2025-11-09 00:22:47,Authentication Failure,dave,10.0.0.4,login_failed auto_generated_detail_253,5,False,knowledge_articles\INC0134.md
+INC0108,2025-11-08 22:29:59,Authentication Failure,dave,10.0.0.21,login_failed auto_generated_detail_213,5,False,knowledge_articles\INC0108.md
+INC0242,2025-11-09 10:46:08,Authentication Failure,svc_backup,10.0.0.23,login_failed auto_generated_detail_487,5,False,knowledge_articles\INC0242.md
+INC0245,2025-11-09 10:58:07,Authentication Failure,bob,10.0.0.24,login_failed auto_generated_detail_491,5,False,knowledge_articles\INC0245.md
+INC0264,2025-11-09 12:14:43,Authentication Failure,alice,10.0.0.10,login_failed auto_generated_detail_524,5,False,knowledge_articles\INC0264.md
+INC0267,2025-11-09 12:32:07,Authentication Failure,admin,10.0.0.14,login_failed auto_generated_detail_530,5,False,knowledge_articles\INC0267.md
+INC0074,2025-11-08 19:11:34,Authentication Failure,bob,10.0.0.49,login_failed auto_generated_detail_141,5,False,knowledge_articles\INC0074.md
+INC0199,2025-11-09 06:41:07,Authentication Failure,carol,10.0.0.34,login_failed auto_generated_detail_395,5,False,knowledge_articles\INC0199.md
+INC0297,2025-11-09 15:04:24,Authentication Failure,alice,10.0.0.36,login_failed auto_generated_detail_583,5,False,knowledge_articles\INC0297.md
+INC0295,2025-11-09 14:55:25,Authentication Failure,carol,10.0.0.17,login_failed auto_generated_detail_580,5,False,knowledge_articles\INC0295.md
+INC0294,2025-11-09 14:48:18,Authentication Failure,bob,10.0.0.39,login_failed auto_generated_detail_578,5,False,knowledge_articles\INC0294.md
+INC0085,2025-11-08 20:06:39,Authentication Failure,alice,10.0.0.28,login_failed auto_generated_detail_164,5,False,knowledge_articles\INC0085.md
+INC0096,2025-11-08 21:00:13,Authentication Failure,svc_sync,10.0.0.9,login_failed auto_generated_detail_182,5,False,knowledge_articles\INC0096.md
+INC0060,2025-11-08 18:09:06,Authentication Failure,bob,10.0.0.42,login_failed auto_generated_detail_114,5,False,knowledge_articles\INC0060.md
+INC0194,2025-11-09 06:21:45,Authentication Failure,bob,10.0.0.11,login_failed auto_generated_detail_387,5,False,knowledge_articles\INC0194.md
+INC0290,2025-11-09 14:35:05,Authentication Failure,bob,10.0.0.17,login_failed auto_generated_detail_572,5,False,knowledge_articles\INC0290.md
+INC0285,2025-11-09 14:16:56,Authentication Failure,admin,10.0.0.7,login_failed auto_generated_detail_565,5,False,knowledge_articles\INC0285.md
+INC0051,2025-11-08 17:31:13,Authentication Failure,dave,10.0.0.2,login_failed auto_generated_detail_99,5,False,knowledge_articles\INC0051.md
+INC0284,2025-11-09 14:06:53,Authentication Failure,dave,10.0.0.5,login_failed auto_generated_detail_562,5,False,knowledge_articles\INC0284.md
+INC0114,2025-11-08 23:00:42,Authentication Failure,admin,10.0.0.30,login_failed auto_generated_detail_223,5,False,knowledge_articles\INC0114.md
+INC0279,2025-11-09 13:37:28,Authentication Failure,alice,10.0.0.48,login_failed auto_generated_detail_554,5,False,knowledge_articles\INC0279.md
+INC0205,2025-11-09 07:07:25,Authentication Failure,bob,10.0.0.36,login_failed auto_generated_detail_405,5,False,knowledge_articles\INC0205.md
+INC0207,2025-11-09 07:15:12,Authentication Failure,bob,10.0.0.13,login_failed auto_generated_detail_409,5,False,knowledge_articles\INC0207.md
+INC0130,2025-11-09 00:12:53,Authentication Failure,svc_backup,10.0.0.49,login_failed auto_generated_detail_249,5,False,knowledge_articles\INC0130.md
+INC0101,2025-11-08 21:40:36,Authentication Failure,svc_backup,10.0.0.34,login_failed auto_generated_detail_196,5,False,knowledge_articles\INC0101.md
+INC0212,2025-11-09 07:50:01,Authentication Failure,dave,10.0.0.33,login_failed auto_generated_detail_424,5,False,knowledge_articles\INC0212.md
+INC0021,2025-11-08 14:32:13,Authentication Failure,bob,10.0.0.12,login_failed auto_generated_detail_32,5,False,knowledge_articles\INC0021.md
